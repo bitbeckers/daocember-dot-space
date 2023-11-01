@@ -5,6 +5,9 @@ const ballTexts = {
   DAOcember: "DAOcember 2023",
   Startdate: "December 1st",
   Moloch: "Slaying Moloch with eggnog",
+  DAOVets: "Building DAO playbooks",
+  Salons: "Bigbrain salons",
+  Hacking: "A Haus is never done",
 };
 
 const GRID_SIZE = 10;
