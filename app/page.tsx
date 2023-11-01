@@ -1,3 +1,4 @@
+"use client";
 import BallGridWithNoSsr from "./components/ballGridWithNoSsr";
 
 export default function Home() {

@@ -1,3 +1,4 @@
+"use client";
 import Ball from "./ball";
 
 const ballTexts = {
