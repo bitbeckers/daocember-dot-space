@@ -2,13 +2,12 @@ import Image from "next/image";
 
 const Logo = () => {
   return (
-    <div className="logo">
+    <div className="flex justify-center">
       <Image
         src="/daocember.svg"
         alt=""
         width={450}
-        height={150}
-        className="w-full rounded-t-md h-72xa"
+        height={450}
       />
     </div>
   );
