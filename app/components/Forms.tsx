@@ -17,7 +17,7 @@ const FormLink = ({ name, href, key }: FormLinkProps) => {
 
   return (
     <div
-      className="w-60 rounded-md shadow-md dark:bg-gray-900 dark:text-gray-100"
+      className="w-30 rounded-md shadow-md dark:bg-gray-900 dark:text-gray-100"
       key={key}
     >
       <Image
@@ -25,14 +25,11 @@ const FormLink = ({ name, href, key }: FormLinkProps) => {
         alt=""
         width={150}
         height={150}
-        className="object-cover object-center w-full rounded-t-md h-72 dark:bg-gray-500"
+        className="object-cover object-center w-full rounded-t-md dark:bg-gray-500"
       />
-      <div className="flex flex-col justify-between p-6 space-y-8">
+      <div className="flex flex-col justify-between p-2 space-y-2">
         <div className="space-y-2">
-          <h2 className="text-3xl font-semibold tracki">{name}</h2>
-          <p className="dark:text-gray-100">
-            Curabitur luctus erat nunc, sed ullamcorper erat vestibulum eget.
-          </p>
+          <h2 className="text-xl font-semibold tracki">{name}</h2>
         </div>
         <button
           onClick={handleClick}
