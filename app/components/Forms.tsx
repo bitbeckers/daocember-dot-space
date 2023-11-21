@@ -3,11 +3,10 @@ import Image from "next/image";
 interface FormLinkProps {
   name: string;
   href: string;
-  key: number;
   children?: any;
 }
 
-const FormLink = ({ name, href, key }: FormLinkProps) => {
+const FormLink = ({ name, href }: FormLinkProps) => {
   const handleClick = (e: any) => {
     e.preventDefault();
     console.log("The link was clicked.");
@@ -16,10 +15,7 @@ const FormLink = ({ name, href, key }: FormLinkProps) => {
   };
 
   return (
-    <div
-      className="w-30 rounded-md shadow-md dark:bg-gray-900 dark:text-gray-100"
-      key={key}
-    >
+    <div className="w-30 rounded-md shadow-md dark:bg-gray-900 dark:text-gray-100">
       <Image
         src="/logo.jpg"
         alt=""
@@ -59,10 +55,13 @@ const Forms = () => {
     },
   ];
   return (
-    <div className="max-w-screen flex flex-row space-x-4 mt-10 justify-center">
-      {forms.map((t, i) => (
-        <FormLink key={i} name={t.name} href={t.href} />
-      ))}
+    <div className="max-w-screen flex flex-col mt-10 justify-center mb-60">
+      <span className="flex text-3xl justify-center mb-10">Sign up as...</span>
+      <div className="flex flex-row space-x-6 justify-center">
+        {forms.map((t, i) => (
+          <FormLink key={i} name={t.name} href={t.href} />
+        ))}
+      </div>
     </div>
   );
 };
