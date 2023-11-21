@@ -9,7 +9,8 @@ const config: Config = {
   theme: {
     extend: {
       backgroundImage: {
-        "ball": "url(/ball.svg)",
+        ball: "url(/ball.svg)",
+        "campsite": "url(/bg_campsite.svg)",
         "three-wise-summoners": "url(/three_wise_summoners.png)",
         "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
         "gradient-conic":

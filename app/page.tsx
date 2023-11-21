@@ -1,10 +1,20 @@
 "use client";
-import BallGridWithNoSsr from "./components/ballGridWithNoSsr";
+import Details from "./components/Details";
+import Intro from "./components/Intro";
+import Logo from "./components/Logo";
+import Partners from "./components/Partners";
+import Forms from "./components/Forms";
+import Footer from "./components/Footer";
 
 export default function Home() {
   return (
-    <main className="min-h-screen bg-cover bg-three-wise-summoners relative">
-      <BallGridWithNoSsr />
+    <main className="flex flex-col min-h-screen min-w-screen bg-campsite bg-cover text-white justify-center">
+      <Logo />
+      <Intro />
+      <Partners />
+      <Details />
+      <Forms />
+      <Footer />
     </main>
   );
 }
