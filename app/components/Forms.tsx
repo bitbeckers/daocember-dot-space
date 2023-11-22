@@ -16,7 +16,7 @@ const FormCard = ({ name, href }: FormLinkProps) => {
 
   return (
     <div className="flex max-w-sm">
-      <div className="bg-red-500 bg-opacity-50 rounded-lg shadow-lg p-6">
+      <div className="bg-red-500 bg-opacity-50 rounded-lg shadow-lg p-6 border-2 border-yellow-600">
         <div className="flex flex-col items-center">
           <div className="bg-white bg-opacity-50 rounded-full h-24 w-24 mb-4 flex items-center justify-center">
             <Image
