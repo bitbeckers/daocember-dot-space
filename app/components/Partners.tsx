@@ -4,40 +4,17 @@ import React, { useEffect, useState } from "react";
 interface PartnerProps {
   items: string[];
 }
-const ScrollBanner = ({ items }: PartnerProps) => {
-  const controls = useAnimation();
-  const doubledItems = [...items, ...items]; // duplicate the items
-  const [screenWidth, setScreenWidth] = useState(0);
-  const estimatedItemWidth = 100; // adjust this value as needed
-  const totalItemsWidth = estimatedItemWidth * doubledItems.length;
-
-  useEffect(() => {
-    setScreenWidth(window.innerWidth);
-    const totalWidth = screenWidth + totalItemsWidth;
-    const duration = totalWidth / 100; // adjust this value as needed
-    controls.start({
-      x: [-totalItemsWidth, screenWidth],
-      transition: {
-        duration,
-        ease: "linear",
-        repeat: Infinity,
-        repeatDelay: 0,
-      },
-    });
-  }, [controls, screenWidth, totalItemsWidth]);
-
+const Banner = ({ items }: PartnerProps) => {
   return (
-    <div className="overflow-hidden whitespace-nowrap min-w-full">
-      <motion.div animate={controls} className="inline-block space-x-10">
-        {doubledItems.map((item, index) => (
-          <div
-            key={index}
-            className="px-8 py-3 font-semibold rounded-full dark:bg-gray-100 dark:text-gray-800 inline-block"
-          >
-            {item}
-          </div>
-        ))}
-      </motion.div>
+    <div className="flex justify-center overflow-hidden whitespace-nowrap min-w-full space-x-4">
+      {items.map((item, index) => (
+        <div
+          key={index}
+          className="flex px-8 py-3 font-semibold rounded-full dark:bg-gray-100 dark:text-gray-800"
+        >
+          {item}
+        </div>
+      ))}
     </div>
   );
 };
@@ -51,7 +28,7 @@ const Partners = () => {
           Powered by
         </span>
         <div className="space-x-4 justify-center">
-          <ScrollBanner items={daoists} />
+          <Banner items={daoists} />
         </div>
       </div>
     </div>
