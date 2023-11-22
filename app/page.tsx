@@ -16,7 +16,6 @@ export default function Home() {
       <Partners />
       <Details />
       <Forms />
-      <Footer />
     </main>
   );
 }

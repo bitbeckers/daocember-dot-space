@@ -1,7 +1,7 @@
 const Footer = () => {
   return (
     <div className="footer">
-      <span>DAOCEMBER LOGO</span>
+      <span></span>
     </div>
   );
 };
