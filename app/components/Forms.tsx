@@ -61,11 +61,32 @@ const Forms = () => {
   ];
   return (
     <div className="max-w-screen flex flex-col mt-10 justify-center mb-60">
-      <span className="flex text-3xl justify-center mb-10">Sign up as...</span>
-      <div className="flex flex-row space-x-6 justify-center">
+      <span className="flex text-4xl justify-center mb-10 font-pixelify">
+        Sign up as...
+      </span>
+      <div className="flex flex-row space-x-6 justify-center m-4 mb-10">
         {forms.map((t, i) => (
           <FormCard key={i} name={t.name} href={t.href} />
         ))}
+      </div>
+
+      <span className="flex text-4xl justify-center mb-10 font-pixelify">
+        Then jump in:{" "}
+      </span>
+      <div className="flex flex-row space-x-6 justify-center m-4">
+        <a
+          href="https://t.me/daocember"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <Image
+            src="/telegram-logo.png"
+            alt="Telegram"
+            width={100}
+            height={100}
+            className="object-cover object-center w-full rounded-t-m"
+          />
+        </a>
       </div>
     </div>
   );

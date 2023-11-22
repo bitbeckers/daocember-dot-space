@@ -23,7 +23,7 @@ const Details = () => {
     <div className="flex flex-col space-y-4 text-center">
       {reasons.map((t, i) => (
         <div key={i}>
-          <p className="text-2xl font-bold">{t.title}</p>
+          <p className="text-2xl font-bold font-pixelify">{t.title}</p>
           <p className="text-lg">{t.copy}</p>
         </div>
       ))}
