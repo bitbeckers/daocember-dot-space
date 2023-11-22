@@ -11,7 +11,7 @@ const ScrollBanner = ({ items }: PartnerProps) => {
     controls.start({
       x: [-100 * items.length, 0],
       transition: {
-        duration: 10 * items.length,
+        duration: 3 * items.length,
         ease: "linear",
         repeat: Infinity,
         repeatType: "loop",
@@ -40,7 +40,7 @@ const Partners = () => {
   return (
     <div className="flex flex-col min-w-full justify-center bg-opacity-30 bg-slate-500 my-5">
       <div className="flex flex-col min-w-full justify-center m-10">
-        <span className="mb-4">Powered by</span>
+        <span className="flex justify-center mb-4 text-3xl">Powered by</span>
         <div className="space-x-4 justify-center">
           <ScrollBanner items={daoists} />
         </div>
