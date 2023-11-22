@@ -7,12 +7,14 @@ const Intro = () => {
     "DAO playbooks are yet unwritten, so let’s write some.",
   ];
   return (
-    <div className="space-y-8 text-center justify-center">
-      {text.map((t, i) => (
-        <p className="text-xl" key={i}>
-          {t}
-        </p>
-      ))}
+    <div className="min-w-screen">
+      <div className="max-w-xl space-y-8 mx-auto">
+        {text.map((t, i) => (
+          <p className="text-center text-xl" key={i}>
+            {t}
+          </p>
+        ))}
+      </div>
     </div>
   );
 };
