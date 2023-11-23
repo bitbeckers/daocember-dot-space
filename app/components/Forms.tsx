@@ -3,12 +3,13 @@ import Image from "next/image";
 interface FormLinkProps {
   name: string;
   href: string;
+  clr?: string;
   subtext?: string;
   img?: string;
   children?: any;
 }
 
-const FormCard = ({ name, href, img, subtext }: FormLinkProps) => {
+const FormCard = ({ clr = "red", name, href, img, subtext }: FormLinkProps) => {
   const handleClick = (e: any) => {
     e.preventDefault();
     console.log("The link was clicked.");
@@ -20,13 +21,15 @@ const FormCard = ({ name, href, img, subtext }: FormLinkProps) => {
     <div className="flex max-w-sm">
       <div className="bg-red-500 bg-opacity-50 rounded-2xl shadow-lg p-6 border-2 border-yellow-600">
         <div className="flex flex-col items-center">
-          <div className="bg-white bg-opacity-50 rounded-full h-36 w-36 mb-4 flex items-center justify-center">
+          <div
+            className={`relative bg-opacity-70 h-36 w-36 mb-4 flex items-center justify-center rounded-full dark:bg-violet-400`}
+          >
             <Image
               src={img ? img : "/logo.jpg"}
               alt=""
               width={175}
               height={175}
-              className="object-cover object-center w-full rounded-full dark:bg-gray-500"
+              className="absolute object-cover object-center w-full "
             />
           </div>
           <h2 className="text-xl font-semibold font-pixelify ">{name}</h2>
@@ -37,7 +40,7 @@ const FormCard = ({ name, href, img, subtext }: FormLinkProps) => {
             <button
               onClick={handleClick}
               type="button"
-              className="flex items-center justify-center w-full p-3 font-semibold tracki rounded-md dark:bg-violet-400 dark:text-gray-900"
+              className="flex items-center justify-center w-full p-3 font-semibold tracki rounded-md dark:bg-violet-400 text-white shadow-lg"
             >
               Apply
             </button>
@@ -54,17 +57,22 @@ const Forms = () => {
       name: "Beginner",
       subtext: "To learn about DAOs",
       href: "https://tally.so/r/w8Zq0l",
+      img: "/noob.png",
+      clr: "red",
     },
     {
       name: "Summoner",
       subtext: "To accelerate your DAO",
       href: "https://tally.so/r/w8Zq0l",
+      img: "/builder.png",
+      clr: "blue",
     },
     {
       name: "Veteran",
       subtext: "To pass on wisdom",
-      img: "/logo_veteran.png",
+      img: "/veteran.png",
       href: "https://tally.so/r/mJlYzR",
+      clr: "green",
     },
   ];
   return (
@@ -79,6 +87,7 @@ const Forms = () => {
             name={t.name}
             href={t.href}
             img={t.img}
+            clr={t.clr}
             subtext={t.subtext}
           />
         ))}
