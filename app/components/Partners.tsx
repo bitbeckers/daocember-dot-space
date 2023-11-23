@@ -14,7 +14,7 @@ const PartnerButton = ({
 }) => {
   return (
     <a href={content.Twitter} className="flex flex-row">
-      <button className="font-semibold rounded-full dark:bg-gray-100 dark:text-gray-800">
+      <button className="font-semibold rounded-full dark:bg-gray-100 dark:text-gray-800 shadow-sm shadow-white">
         <div className="flex flex-row flex-grow  min-w-fit items-center m-auto">
           <img
             alt=""
