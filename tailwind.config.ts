@@ -10,7 +10,8 @@ const config: Config = {
     extend: {
       backgroundImage: {
         ball: "url(/ball.svg)",
-        campsite: "url(/bg_campsite.svg)",
+        "sunrise-upper": "url(/bg_sunrise_upper.svg)",
+        "sunrise-lower": "url(/bg_sunrise_lower.svg)",
         "three-wise-summoners": "url(/three_wise_summoners.png)",
         "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
         "gradient-conic":

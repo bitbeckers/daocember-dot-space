@@ -22,7 +22,7 @@ const Banner = ({ items }: PartnerProps) => {
 const Partners = () => {
   const daoists = ["DAOhaus", "MetaCartel", "MetaGame", "Raid Guild"];
   return (
-    <div className="flex flex-col min-w-full justify-center bg-opacity-30 bg-slate-500 my-10">
+    <div className="flex flex-col min-w-full justify-center bg-opacity-30 bg-slate-500 py-10">
       <div className="flex flex-col min-w-full justify-center my-10">
         <span className="flex justify-center mb-4 text-4xl font-pixelify">
           Powered by
