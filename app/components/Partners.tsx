@@ -13,7 +13,7 @@ const PartnerButton = ({
   children?: React.ReactNode;
 }) => {
   return (
-    <a href={content.Twitter} className="flex flex-row">
+    <a href={content.Twitter} className="flex flex-row max-h-12">
       <button className="font-semibold rounded-full dark:bg-gray-100 dark:text-gray-800 shadow-sm shadow-white">
         <div className="flex flex-row flex-grow  min-w-fit items-center m-auto">
           <img
@@ -50,7 +50,7 @@ const Partners = async () => {
         <span className="flex justify-center mb-4 text-4xl font-pixelify">
           Powered by
         </span>
-        <div className="space-x-4 justify-center">
+        <div className="space-x-4">
           <Banner items={daoists} />
         </div>
       </div>
