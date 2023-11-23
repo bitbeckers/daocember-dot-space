@@ -1,3 +1,4 @@
+"use client";
 import Image from "next/image";
 
 interface FormLinkProps {
@@ -10,13 +11,6 @@ interface FormLinkProps {
 }
 
 const FormCard = ({ clr = "red", name, href, img, subtext }: FormLinkProps) => {
-  const handleClick = (e: any) => {
-    e.preventDefault();
-    console.log("The link was clicked.");
-    // Open href in new tab
-    window.open(href, "_blank");
-  };
-
   return (
     <div className="flex max-w-sm">
       <div className="bg-red-500 bg-opacity-50 rounded-2xl shadow-lg p-6 border-2 border-yellow-600">
@@ -37,13 +31,14 @@ const FormCard = ({ clr = "red", name, href, img, subtext }: FormLinkProps) => {
             {subtext ? subtext : "To learn about DAOs"}
           </p>
           <div className="flex flex-col justify-between p-2 space-y-2">
-            <button
-              onClick={handleClick}
-              type="button"
-              className="flex items-center justify-center w-full p-3 font-semibold tracki rounded-md dark:bg-violet-400 text-white shadow-lg"
-            >
-              Apply
-            </button>
+            <a href={href} target="_blank" rel="noopener noreferrer">
+              <button
+                type="button"
+                className="flex items-center justify-center w-full p-3 font-semibold tracki rounded-md dark:bg-violet-400 text-white shadow-lg"
+              >
+                Apply
+              </button>
+            </a>
           </div>
         </div>
       </div>
