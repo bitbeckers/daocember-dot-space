@@ -29,7 +29,7 @@ const FormCard = ({ name, href, img, subtext }: FormLinkProps) => {
               className="object-cover object-center w-full rounded-full dark:bg-gray-500"
             />
           </div>
-          <h2 className="text-xl font-semibold tracki">{name}</h2>
+          <h2 className="text-xl font-semibold font-pixelify ">{name}</h2>
           <p className="text-white text-center">
             {subtext ? subtext : "To learn about DAOs"}
           </p>
@@ -51,17 +51,17 @@ const FormCard = ({ name, href, img, subtext }: FormLinkProps) => {
 const Forms = () => {
   const forms: FormLinkProps[] = [
     {
-      name: "DAO Apprentice",
+      name: "Beginner",
       subtext: "To learn about DAOs",
       href: "https://tally.so/r/w8Zq0l",
     },
     {
-      name: "DAO Builder",
+      name: "Summoner",
       subtext: "To accelerate your DAO",
       href: "https://tally.so/r/w8Zq0l",
     },
     {
-      name: "DAO Veteran",
+      name: "Veteran",
       subtext: "To pass on wisdom",
       img: "/logo_veteran.png",
       href: "https://tally.so/r/mJlYzR",
