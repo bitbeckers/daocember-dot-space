@@ -15,7 +15,7 @@ const PartnerButton = ({ name, image, twitter }: PartnerDetails) => {
     <a href={twitter} className="flex flex-row">
       <button className="font-semibold rounded-full bg-white/10 backdrop-blur-md border-2 border-white/20 hover:border-s-[#FFA479] text-slate-50 w-max transition-all ease-out duration-200 hover:translate-x-1">
         <div className="flex flex-row flex-grow min-w-fit items-center m-auto">
-          // TODO: Fix the image URLs not loading, seems like CORS
+          {/* TODO: Fix the image URLs not loading, seems like CORS */}
           <img
             alt={''}
             className="flex w-12 h-12 rounded-full bg-white/30 bg-repeat"

@@ -12,7 +12,7 @@ interface FormLinkProps {
 
 const FormCard = ({ clr = "red", name, href, img, subtext }: FormLinkProps) => {
   return (
-    <div className="flex max-w-sm">
+    <div className="flex w-64">
       <div className="bg-red-500 bg-opacity-50 rounded-2xl shadow-lg p-6 border-2 border-yellow-600">
         <div className="flex flex-col items-center">
           <div
@@ -75,7 +75,7 @@ const Forms = () => {
       <span className="flex text-4xl justify-center my-10 font-pixelify">
         Sign up as...
       </span>
-      <div className="flex flex-row space-x-6 justify-center m-4 mb-10">
+      <div className="flex flex-row space-x-6 justify-center p-6 overflow-x-auto">
         {forms.map((t, i) => (
           <FormCard
             key={i}
@@ -91,11 +91,12 @@ const Forms = () => {
       <span className="flex text-4xl justify-center my-10 font-pixelify">
         Then jump in:{" "}
       </span>
-      <div className="flex flex-row space-x-6 justify-center m-4">
+      <div className="flex flex-row space-x-6 justify-center m-4 transition-transform hover:translate-x-2 hover:-translate-y-2">
         <a
           href="https://t.me/daocember"
           target="_blank"
           rel="noopener noreferrer"
+          title="Telegram"
         >
           <Image
             src="/tg_logo_yellow.jpg"
