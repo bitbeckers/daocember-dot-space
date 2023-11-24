@@ -71,7 +71,7 @@ const Forms = () => {
     },
   ];
   return (
-    <div className="max-w-screen flex flex-col mt-20 justify-center mb-60">
+    <div className="max-w-screen flex flex-col mt-20 justify-center">
       <span className="flex text-4xl justify-center my-10 font-pixelify">
         Sign up as...
       </span>
@@ -101,8 +101,8 @@ const Forms = () => {
           <Image
             src="/tg_logo_yellow.jpg"
             alt="Telegram"
-            width={100}
-            height={100}
+            width={50}
+            height={50}
             className="object-cover object-center w-full rounded-t-m drop-shadow-2xl"
           />
         </a>
