@@ -40,7 +40,7 @@ const Banner = ({ partners }: BannerProps) => {
 };
 
 const Partners = async () => {
-  const file = await fs.readFile(
+  const file = await fs?.readFile(
     process.cwd() + "/app/resources/partners.json",
     "utf8"
   );
