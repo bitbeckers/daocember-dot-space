@@ -1,39 +1,51 @@
-import React, { useEffect, useState } from "react";
 import { promises as fs } from "fs";
+import { useEffect } from "react";
 
-interface PartnerProps {
-  items: { Name: string; Image: string; Twitter: string }[];
+type PartnerDetails = {
+  name: string
+  image: string
+  twitter: string
+}
+interface BannerProps {
+  partners: PartnerDetails[];
 }
 
-const PartnerButton = ({
-  content,
-  children,
-}: {
-  content: { Name: string; Image: string; Twitter: string };
-  children?: React.ReactNode;
-}) => {
+const PartnerButton = ({ name, image, twitter }: PartnerDetails) => {
   return (
-    <a href={content.Twitter} className="flex flex-row max-h-12">
-      <button className="font-semibold rounded-full dark:bg-gray-100 dark:text-gray-800 shadow-sm shadow-white">
-        <div className="flex flex-row flex-grow  min-w-fit items-center m-auto">
+    <a href={twitter} className="flex flex-row">
+      <button className="font-semibold rounded-full bg-white/10 backdrop-blur-md border-2 border-white/20 hover:border-s-[#FFA479] text-slate-50 w-max transition-all ease-out duration-200 hover:translate-x-1">
+        <div className="flex flex-row flex-grow min-w-fit items-center m-auto">
+          // TODO: Fix the image URLs not loading, seems like CORS
           <img
-            alt=""
-            className="flex w-12 h-12 rounded-full ri ri dark:bg-gray-500 ri ri"
-            src={content.Image}
+            alt={''}
+            className="flex w-12 h-12 rounded-full bg-white/30 bg-repeat"
+            src={image}
           />
-          <span className="flex ml-2 mr-4">{content.Name}</span>
+          <span className="flex ml-2 mr-4">{name}</span>
         </div>
       </button>
     </a>
   );
 };
-const Banner = ({ items }: PartnerProps) => {
+
+const Banner = ({ partners }: BannerProps) => {
+  useEffect(() => {
+    const scrollElement = document.getElementById('scrollingBanner');
+    if (!scrollElement) return;
+    let scrollPosition = 0;
+    const scrollInterval = setInterval(() => {
+      scrollPosition += 1;
+      scrollElement.scrollLeft = scrollPosition;
+    }, 112);
+    return () => clearInterval(scrollInterval);
+  }, []);
+
   return (
-    <div className="flex flex-wrap justify-center min-w-full space-x-4 space-y-4">
-      {items.map((item, index) => (
-        <PartnerButton key={index} content={item} />
+    <section id="scrollingBanner" className="p-2 grid grid-flow-col grid-rows-5 gap-4 py-4 overflow-x-scroll whitespace-nowrap">
+      {partners.map((partner, index) => (
+        <PartnerButton key={index}  {...partner} />
       ))}
-    </div>
+    </section>
   );
 };
 
@@ -42,17 +54,15 @@ const Partners = async () => {
     process.cwd() + "/app/resources/partners.json",
     "utf8"
   );
-  const daoists = JSON.parse(file);
+  const daoists: PartnerDetails[] = JSON.parse(file);
 
   return (
     <div className="flex flex-col min-w-full justify-center bg-opacity-30 bg-slate-500 py-10">
-      <div className="flex flex-col min-w-full justify-center my-10">
-        <span className="flex justify-center mb-4 text-4xl font-pixelify">
+      <div className="flex flex-col min-w-full justify-center">
+        <span className="flex justify-center pb-5 text-4xl font-pixelify">
           Powered by
         </span>
-        <div className="space-x-4">
-          <Banner items={daoists} />
-        </div>
+          <Banner partners={daoists} />
       </div>
     </div>
   );
