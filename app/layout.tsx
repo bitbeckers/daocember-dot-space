@@ -1,12 +1,12 @@
 import type { Metadata } from "next";
-import { Baumans, Inter, Pixelify_Sans } from "next/font/google";
+import { Baumans, Inter, Press_Start_2P } from "next/font/google";
 import "./globals.css";
 const inter = Inter({ subsets: ["latin"] });
 const baumans = Baumans({ subsets: ["latin"], weight: ["400"] });
-const pixelify = Pixelify_Sans({
+const pixelify = Press_Start_2P({
   subsets: ["latin"],
   weight: ["400"],
-  variable: "--font-pixelify",
+  variable: "--font-pixelized",
 });
 
 export const metadata: Metadata = {
