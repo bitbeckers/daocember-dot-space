@@ -10,7 +10,7 @@ interface FormLinkProps {
   children?: any;
 }
 
-const FormCard = ({name, href, img, subtext }: FormLinkProps) => {
+const FormCard = ({ name, href, img, subtext }: FormLinkProps) => {
   return (
     <article className="flex w-64">
       <div className="bg-red-500 bg-opacity-50 rounded-2xl shadow-lg p-6 border-2 border-yellow-600">
@@ -58,7 +58,7 @@ const Forms = () => {
     {
       name: "Summoner",
       subtext: "To accelerate your DAO",
-      href: "https://tally.so/r/w8Zq0l",
+      href: "https://tally.so/r/3l6BJo",
       img: "/builder.png",
       clr: "blue",
     },
