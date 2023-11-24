@@ -75,7 +75,7 @@ const Forms = () => {
       <span className="flex text-4xl justify-center my-10 font-pixelify">
         Sign up as...
       </span>
-      <div className="flex flex-row space-x-6 justify-center p-6 overflow-x-auto">
+      <div className="flex flex-row space-x-6 justify-left p-6 overflow-x-auto">
         {forms.map((t, i) => (
           <FormCard
             key={i}

@@ -63,6 +63,7 @@ const Partners = async () => {
           Powered by
         </span>
           <Banner partners={daoists} />
+          <p className="flex justify-center p-3 uppercase text-sm tracking-wide text-slate-300">Swipe across for more →</p>
       </div>
     </div>
   );
