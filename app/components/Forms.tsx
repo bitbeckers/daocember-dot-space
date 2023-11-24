@@ -13,7 +13,7 @@ interface FormLinkProps {
 const FormCard = ({ name, href, img, subtext }: FormLinkProps) => {
   return (
     <article className="flex">
-      <div className="w-52 bg-red-500 bg-opacity-50 rounded-2xl shadow-lg p-6 border-2 border-yellow-600">
+      <div className="w-56 bg-red-500 bg-opacity-50 rounded-2xl shadow-lg p-6 border-2 border-yellow-600">
         <div className="flex flex-col items-center">
           <div
             className={`bg-opacity-70 h-36 w-36 mb-4 flex items-center justify-center rounded-full dark:bg-violet-400`}
