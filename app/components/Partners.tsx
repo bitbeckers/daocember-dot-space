@@ -1,11 +1,12 @@
 import { promises as fs } from "fs";
-import { useEffect } from "react";
+
+import ScrollingBanner from "./ScrollingBanner";
 
 type PartnerDetails = {
-  name: string
-  image: string
-  twitter: string
-}
+  name: string;
+  image: string;
+  twitter: string;
+};
 interface BannerProps {
   partners: PartnerDetails[];
 }
@@ -17,7 +18,7 @@ const PartnerButton = ({ name, image, twitter }: PartnerDetails) => {
         <div className="flex flex-row flex-grow min-w-fit items-center m-auto">
           {/* TODO: Fix the image URLs not loading, seems like CORS */}
           <img
-            alt={''}
+            alt={""}
             className="flex w-12 h-12 rounded-full bg-white/30 bg-repeat"
             src={image}
           />
@@ -29,23 +30,12 @@ const PartnerButton = ({ name, image, twitter }: PartnerDetails) => {
 };
 
 const Banner = ({ partners }: BannerProps) => {
-  useEffect(() => {
-    const scrollElement = document.getElementById('scrollingBanner');
-    if (!scrollElement) return;
-    let scrollPosition = 0;
-    const scrollInterval = setInterval(() => {
-      scrollPosition += 1;
-      scrollElement.scrollLeft = scrollPosition;
-    }, 112);
-    return () => clearInterval(scrollInterval);
-  }, []);
-
   return (
-    <section id="scrollingBanner" className="p-2 grid grid-flow-col grid-rows-5 gap-4 py-4 overflow-x-scroll whitespace-nowrap">
+    <ScrollingBanner>
       {partners.map((partner, index) => (
-        <PartnerButton key={index}  {...partner} />
+        <PartnerButton key={index} {...partner} />
       ))}
-    </section>
+    </ScrollingBanner>
   );
 };
 
@@ -62,8 +52,10 @@ const Partners = async () => {
         <span className="flex justify-center pb-5 text-4xl font-pixelify">
           Powered by
         </span>
-          <Banner partners={daoists} />
-          <p className="flex justify-center p-3 uppercase text-sm tracking-wide text-slate-300">Swipe across for more →</p>
+        <Banner partners={daoists} />
+        <p className="flex justify-center p-3 uppercase text-sm tracking-wide text-slate-300">
+          Swipe across for more →
+        </p>
       </div>
     </div>
   );

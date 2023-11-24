@@ -1,4 +1,3 @@
-"use client";
 import Details from "./components/Details";
 import Intro from "./components/Intro";
 import Logo from "./components/Logo";
