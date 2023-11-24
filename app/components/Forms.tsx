@@ -101,8 +101,8 @@ const Forms = () => {
           <Image
             src="/tg_logo_yellow.jpg"
             alt="Telegram"
-            width={100}
-            height={100}
+            width={50}
+            height={50}
             className="object-cover object-center w-full rounded-t-m drop-shadow-2xl"
           />
         </a>
