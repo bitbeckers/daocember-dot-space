@@ -10,10 +10,10 @@ interface FormLinkProps {
   children?: any;
 }
 
-const FormCard = ({name, href, img, subtext }: FormLinkProps) => {
+const FormCard = ({ name, href, img, subtext }: FormLinkProps) => {
   return (
-    <article className="flex w-64">
-      <div className="bg-red-500 bg-opacity-50 rounded-2xl shadow-lg p-6 border-2 border-yellow-600">
+    <article className="flex">
+      <div className="w-52 bg-red-500 bg-opacity-50 rounded-2xl shadow-lg p-6 border-2 border-yellow-600">
         <div className="flex flex-col items-center">
           <div
             className={`bg-opacity-70 h-36 w-36 mb-4 flex items-center justify-center rounded-full dark:bg-violet-400`}
@@ -75,7 +75,7 @@ const Forms = () => {
       <span className="flex text-4xl justify-center my-10 font-pixelify">
         Sign up as...
       </span>
-      <div className="flex flex-row space-x-6 justify-left md:justify-center p-6 overflow-x-auto">
+      <div className="flex flex-row space-x-20 justify-left md:justify-center p-6 overflow-x-auto">
         {forms.map((form, index) => (
           <FormCard
             key={index}
