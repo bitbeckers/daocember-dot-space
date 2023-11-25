@@ -1,3 +1,18 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer components {
+  .scroll-animation {
+    animation: scroll 20s linear infinite alternate;
+  }
+
+  .pause-animation {
+    animation-play-state: paused;
+  }
+
+  @keyframes scroll {
+    0% { transform: translateX(0); }
+    100% { transform: translateX(-120%); }
+  }
+}

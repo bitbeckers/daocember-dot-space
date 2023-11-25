@@ -1,16 +1,16 @@
 import { promises as fs } from "fs";
-import { useEffect } from "react";
+import ScrollingBanner from "./ScrollBanner";
 
-type PartnerDetails = {
+export type PartnerDetails = {
   name: string
   image: string
   twitter: string
 }
-interface BannerProps {
-  partners: PartnerDetails[];
+export type ScrollBannerProps = {
+  scrollItems: PartnerDetails[];
 }
 
-const PartnerButton = ({ name, image, twitter }: PartnerDetails) => {
+export const PartnerButton = ({ name, image, twitter }: PartnerDetails) => {
   return (
     <a href={twitter} className="flex flex-row">
       <button className="font-semibold rounded-full bg-white/10 backdrop-blur-md border-2 border-white/20 hover:border-s-[#FFA479] text-slate-50 w-max transition-all ease-out duration-200 hover:translate-x-1">
@@ -28,42 +28,30 @@ const PartnerButton = ({ name, image, twitter }: PartnerDetails) => {
   );
 };
 
-const Banner = ({ partners }: BannerProps) => {
-  useEffect(() => {
-    const scrollElement = document.getElementById('scrollingBanner');
-    if (!scrollElement) return;
-    let scrollPosition = 0;
-    const scrollInterval = setInterval(() => {
-      scrollPosition += 1;
-      scrollElement.scrollLeft = scrollPosition;
-    }, 112);
-    return () => clearInterval(scrollInterval);
-  }, []);
 
-  return (
-    <section id="scrollingBanner" className="p-2 grid grid-flow-col grid-rows-5 gap-4 py-4 overflow-x-scroll whitespace-nowrap">
-      {partners.map((partner, index) => (
-        <PartnerButton key={index}  {...partner} />
-      ))}
-    </section>
-  );
-};
 
 const Partners = async () => {
-  const file = await fs.readFile(
-    process.cwd() + "/app/resources/partners.json",
-    "utf8"
-  );
-  const daoists: PartnerDetails[] = JSON.parse(file);
+  const localReadFile = async (filePath: string) => {
+    const data = await fs.readFile(
+      process.cwd() + filePath,
+      "utf8"
+    )
+    return JSON.parse(data);
+  }
+  const daoists: PartnerDetails[] = await localReadFile('/app/resources/daoists.json');
+  const partners: PartnerDetails[] = await localReadFile('/app/resources/partners.json');
 
   return (
     <div className="flex flex-col min-w-full justify-center bg-opacity-30 bg-slate-500 py-10">
       <div className="flex flex-col min-w-full justify-center">
-        <span className="flex justify-center pb-5 text-4xl font-pixelify">
-          Powered by
-        </span>
-          <Banner partners={daoists} />
-          <p className="flex justify-center p-3 uppercase text-sm tracking-wide text-slate-300">Swipe across for more →</p>
+        <h3 className="flex justify-center pb-5 text-4xl font-pixelify">
+          Daoists involved
+        </h3>
+        <ScrollingBanner scrollItems={daoists} />
+        <h3 className="flex justify-center pb-5 text-4xl font-pixelify">
+          Daos represented
+        </h3>
+        <ScrollingBanner scrollItems={partners} />
       </div>
     </div>
   );
