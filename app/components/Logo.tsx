@@ -3,7 +3,7 @@ import Image from "next/image";
 const Logo = () => {
   return (
     <div className="flex flex-col items-center justify-center min-w-full mb-20">
-      <div className="flex flex-col mt-[7vw]">
+      <div className="flex flex-col mt-[10vw]">
         <Image
           src="/logo-daocember.png"
           alt="DAOcember logo"
