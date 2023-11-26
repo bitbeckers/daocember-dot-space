@@ -13,7 +13,7 @@ interface FormLinkProps {
 const FormCard = ({ name, href, img, subtext }: FormLinkProps) => {
   return (
     <article className="flex">
-      <div className="w-52 bg-red-500 bg-opacity-50 rounded-2xl shadow-lg p-6 border-2 border-yellow-600">
+      <div className="w-56 bg-red-500 bg-opacity-50 rounded-2xl shadow-lg p-6 border-2 border-yellow-600">
         <div className="flex flex-col items-center">
           <div
             className={`bg-opacity-70 h-36 w-36 mb-4 flex items-center justify-center rounded-full dark:bg-violet-400`}
@@ -26,7 +26,7 @@ const FormCard = ({ name, href, img, subtext }: FormLinkProps) => {
               className="object-cover object-center w-full rounded-full"
             />
           </div>
-          <h2 className="text-xl font-semibold font-pixelify ">{name}</h2>
+          <h2 className="text-lg font-semibold font-pixelized ">{name}</h2>
           <p className="text-white text-center">
             {subtext ? subtext : "To learn about DAOs"}
           </p>
@@ -72,7 +72,7 @@ const Forms = () => {
   ];
   return (
     <div className="max-w-screen flex flex-col mt-20 justify-center">
-      <span className="flex text-4xl justify-center my-10 font-pixelify">
+      <span className="flex text-3xl justify-center my-10 font-pixelized">
         Sign up as...
       </span>
       <div className="flex flex-row space-x-20 justify-left md:justify-center p-6 overflow-x-auto">
@@ -88,7 +88,7 @@ const Forms = () => {
         ))}
       </div>
 
-      <span className="flex text-4xl justify-center my-10 font-pixelify">
+      <span className="flex text-3xl justify-center my-10 font-pixelized">
         Then jump in:{" "}
       </span>
       <div className="flex flex-row space-x-6 justify-center m-4 transition-transform hover:translate-x-2 hover:-translate-y-2">

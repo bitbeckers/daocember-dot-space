@@ -3,7 +3,7 @@ type ActCardInfo = {
   romanNumeral: string;
   title: string;
   topics: string[];
-}
+};
 
 const actInfo: ActCardInfo[] = [
   {
@@ -58,18 +58,23 @@ const actInfo: ActCardInfo[] = [
 const ActCard = ({ romanNumeral, topics, title }: ActCardInfo) => {
   return (
     <article className="flex flex-col items-center">
-      <h5 className="flex justify-center text-2xl font-bold font-pixelify text-[#FFA479] uppercase">
+      <h5 className="flex justify-center text-xl font-bold font-pixelized text-[#FFA479] uppercase">
         Act {romanNumeral}
       </h5>
-      <h2 className="flex justify-center text-4xl font-semibold font-pixelify mb-4">
+      <h2 className="flex justify-center text-3xl font-semibold font-pixelized mb-4">
         {title}
       </h2>
       <div className="flex flex-col flex-grow bg-white/10 backdrop-blur-md border-s-[#FFA479] border-s-4 rounded-md p-4">
         <ul>
           {topics
-            .map(topic => { return { id: crypto.randomUUID(), topic } })
+            .map((topic) => {
+              return { id: crypto.randomUUID(), topic };
+            })
             .map(({ id, topic }) => (
-              <li key={id} className="text-lg flex flex-col items-center text-center p-2 border-b-[1.5px] border-b-white/30 last-of-type:border-none">
+              <li
+                key={id}
+                className="text-lg flex flex-col items-center text-center p-2 border-b-[1.5px] border-b-white/30 last-of-type:border-none"
+              >
                 {topic}
               </li>
             ))}

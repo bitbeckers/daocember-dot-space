@@ -32,6 +32,7 @@ const PartnerButton = ({ name, image, twitter }: PartnerDetails) => {
 const Banner = ({ partners }: BannerProps) => {
   return (
     <ScrollingBanner>
+
       {partners.map((partner, index) => (
         <PartnerButton key={index} {...partner} />
       ))}
@@ -49,7 +50,7 @@ const Partners = async () => {
   return (
     <div className="flex flex-col min-w-full justify-center bg-opacity-30 bg-slate-500 py-10">
       <div className="flex flex-col min-w-full justify-center">
-        <span className="flex justify-center pb-5 text-4xl font-pixelify">
+        <span className="flex justify-center pb-5 text-3xl font-pixelized">
           Powered by
         </span>
         <Banner partners={daoists} />
