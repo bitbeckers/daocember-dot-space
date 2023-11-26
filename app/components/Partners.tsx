@@ -1,5 +1,6 @@
 import { promises as fs } from "fs";
-import { useEffect } from "react";
+
+import ScrollingBanner from "./ScrollingBanner";
 
 type PartnerDetails = {
   name: string;
@@ -29,31 +30,18 @@ const PartnerButton = ({ name, image, twitter }: PartnerDetails) => {
 };
 
 const Banner = ({ partners }: BannerProps) => {
-  useEffect(() => {
-    const scrollElement = document.getElementById("scrollingBanner");
-    if (!scrollElement) return;
-    let scrollPosition = 0;
-    const scrollInterval = setInterval(() => {
-      scrollPosition += 1;
-      scrollElement.scrollLeft = scrollPosition;
-    }, 112);
-    return () => clearInterval(scrollInterval);
-  }, []);
-
   return (
-    <section
-      id="scrollingBanner"
-      className="p-2 grid grid-flow-col grid-rows-5 gap-4 py-4 overflow-x-scroll whitespace-nowrap"
-    >
+    <ScrollingBanner>
+
       {partners.map((partner, index) => (
         <PartnerButton key={index} {...partner} />
       ))}
-    </section>
+    </ScrollingBanner>
   );
 };
 
 const Partners = async () => {
-  const file = await fs.readFile(
+  const file = await fs?.readFile(
     process.cwd() + "/app/resources/partners.json",
     "utf8"
   );
