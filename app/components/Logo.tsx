@@ -3,9 +3,9 @@ import Image from "next/image";
 const Logo = () => {
   return (
     <div className="flex flex-col items-center justify-center min-w-full mb-20">
-      <div className="flex flex-col">
+      <div className="flex flex-col mt-[7vw]">
         <Image
-          src="/logo_daocember.png"
+          src="/logo-daocember.png"
           alt="DAOcember logo"
           width={1250}
           height={450}
