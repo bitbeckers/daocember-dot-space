@@ -11,7 +11,7 @@ const Logo = () => {
           height={450}
         />
       </div>
-      <h1 className="drop-shadow-2xl text-6xl font-bold font-pixelify text-white shadow-md">
+      <h1 className="drop-shadow-2xl text-5xl font-bold font-pixelized text-white">
         December 1 - 15th
       </h1>
     </div>
