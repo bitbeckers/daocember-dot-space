@@ -39,15 +39,20 @@ const main = async (dataFile: string) => {
 
     const updatePeople = people.map(async (p) => {
       if (p.image.startsWith("http") && p.twitter.length > 0) {
-        const newFile = await downloadImage(
-          p.image,
-          extractTwitterHandle(p.twitter)
-        );
+        try {
+          const newFile = await downloadImage(
+            p.image,
+            extractTwitterHandle(p.twitter)
+          );
 
-        return {
-          ...p,
-          image: newFile,
-        };
+          return {
+            ...p,
+            image: newFile,
+          };
+        } catch (error) {
+          console.error("Error downloading image:", error);
+          return p;
+        }
       } else {
         console.log(`Skipping ${p.name}`);
         return p;
@@ -55,6 +60,7 @@ const main = async (dataFile: string) => {
     });
 
     const newData = await Promise.all(updatePeople);
+
     fs.writeFileSync(jsonFilePath, JSON.stringify(newData, null, 2));
 
     console.log("All images downloaded successfully!");
