@@ -22,10 +22,10 @@ const Details = () => {
   return (
     <div className="flex flex-col space-y-4 text-center mt-10">
       {reasons.map((t, i) => (
-        <div key={i}>
-          <p className="text-3xl font-bold font-pixelized my-2">{t.title}</p>
-          <p className="text-xl">{t.copy}</p>
-        </div>
+        <dl key={i} className="mb-2">
+          <dt className="text-xl font-bold font-pixelized">{t.title}</dt>
+          <dd className="text-base">{t.copy}</dd>
+        </dl>
       ))}
     </div>
   );

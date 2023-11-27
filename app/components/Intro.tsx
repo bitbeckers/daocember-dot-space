@@ -8,13 +8,13 @@ const Intro = () => {
   ];
   return (
     <>
-      <p className="max-w-2xl mx-auto px-2 text-center text-2xl mb-8">
+      <p className="max-w-2xl mx-auto px-2 text-center text-lg mb-8">
         A virtual gathering of DAOists boosting the new generation. Learn from
         the best & get your DAO growin&apos;
       </p>
       <div className="max-w-xl space-y-6 mx-auto px-2">
         {text.map((t, i) => (
-          <p className="text-center text-xl" key={i}>
+          <p className="text-center text-base" key={i}>
             {t}
           </p>
         ))}

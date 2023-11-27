@@ -25,7 +25,7 @@ const PartnerListItem = ({ name, image, twitter }: Partner) => {
 const PartnersList = ({ title, partners }: PartnerListProps) => {
   return (
     <section className="flex flex-col justify-center bg-opacity-30 bg-slate-500 px-2 md:px-10 py-10">
-      <h1 className="text-3xl font-pixelized text-center mb-12">{title}</h1>
+      <h1 className="text-2xl font-pixelized text-center mb-12">{title}</h1>
       <ul className="flex flex-wrap justify-center gap-2 md:gap-4">
         {partners.map((partner, index) => (
           <PartnerListItem key={index} {...partner} />
