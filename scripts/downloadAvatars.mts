@@ -37,9 +37,8 @@ const main = async (dataFile: string) => {
     const jsonString = fs.readFileSync(dataFile, "utf-8");
     const people: People[] = JSON.parse(jsonString);
 
-    const updatePeople = people
-      .filter((p) => p.image.startsWith("http"))
-      .map(async (p) => {
+    const updatePeople = people.map(async (p) => {
+      if (p.image.startsWith("http") && p.twitter.length > 0) {
         const newFile = await downloadImage(
           p.image,
           extractTwitterHandle(p.twitter)
@@ -49,7 +48,11 @@ const main = async (dataFile: string) => {
           ...p,
           image: newFile,
         };
-      });
+      } else {
+        console.log(`Skipping ${p.name}`);
+        return p;
+      }
+    });
 
     const newData = await Promise.all(updatePeople);
     fs.writeFileSync(jsonFilePath, JSON.stringify(newData, null, 2));
