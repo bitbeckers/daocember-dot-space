@@ -16,15 +16,15 @@ const downloadImage = async (
 
   const fileExtension = imageUrl.split("?")[0].split(".").pop();
 
-  const relativePath = `/public/avatars/${fileName}.${fileExtension}`;
+  const relativeUrl = `/avatars/${fileName}.${fileExtension}`;
   fs.writeFileSync(
-    path.join(path.resolve(), relativePath),
+    path.join(path.resolve(), "/public", relativeUrl),
     Buffer.from(response.data)
   );
 
   console.log(`Downloaded ${fileName}`);
 
-  return relativePath;
+  return relativeUrl;
 };
 
 const extractTwitterHandle = (twitterUrl: string): string =>
