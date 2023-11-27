@@ -1,17 +1,17 @@
 [
   {
     "name": "DAOhaus",
-    "image": "https://pbs.twimg.com/profile_images/1633651034798145536/BG6gHvYA_400x400.jpg",
+    "image": "/avatars/daohaus.jpg",
     "twitter": "https://twitter.com/DAOhaus"
   },
   {
     "name": "MetaGame",
-    "image": "https://pbs.twimg.com/profile_images/1503415833908887560/2S-_3iXr_400x400.jpg",
+    "image": "/avatars/metafam.jpg",
     "twitter": "https://twitter.com/MetaFam"
   },
   {
     "name": "Raid Guild",
-    "image": "https://pbs.twimg.com/profile_images/1226584267645341696/NQCsdXTC_400x400.jpg",
+    "image": "/avatars/raidguild.jpg",
     "twitter": "https://twitter.com/RaidGuild"
   },
   {
@@ -21,242 +21,242 @@
   },
   {
     "name": "Public Nouns",
-    "image": "https://pbs.twimg.com/profile_images/1576701761103966210/tRVx6Mxx_400x400.jpg",
+    "image": "/avatars/publicnouns.jpg",
     "twitter": "https://twitter.com/PublicNouns"
   },
   {
     "name": "Colony",
-    "image": "https://pbs.twimg.com/profile_images/1468738821814734849/WT2x2OlQ_400x400.png",
+    "image": "/avatars/joincolony.png",
     "twitter": "https://twitter.com/joincolony"
   },
   {
     "name": "MetaFactory",
-    "image": "https://metafest.wtf/assets/MetaFactory_ZURjeE.webp",
+    "image": "/avatars/themetafactory.webp",
     "twitter": "https://twitter.com/TheMetaFactory"
   },
   {
     "name": "TogetherCrew",
-    "image": "https://pbs.twimg.com/profile_images/1626696362346663942/rte5Cr-9_400x400.jpg",
+    "image": "/avatars/together_crew.jpg",
     "twitter": "https://twitter.com/together_crew"
   },
   {
     "name": "BankessDAO",
-    "image": "https://pbs.twimg.com/profile_images/1389400052448247816/qsOU0pih_400x400.jpg",
+    "image": "/avatars/banklessdao.jpg",
     "twitter": "https://twitter.com/BanklessDAO"
   },
   {
     "name": "Gitcoin",
-    "image": "https://pbs.twimg.com/profile_images/1706743937149419520/_GtRYfJV_400x400.jpg",
+    "image": "/avatars/gitcoin.jpg",
     "twitter": "https://twitter.com/gitcoin"
   },
   {
     "name": "Hats Protocol",
-    "image": "https://pbs.twimg.com/profile_images/1582813434701565952/Hr5lTs8P_400x400.jpg",
+    "image": "/avatars/hatsprotocol.jpg",
     "twitter": "https://twitter.com/hatsprotocol"
   },
   {
     "name": "RnDAO",
-    "image": "https://pbs.twimg.com/profile_images/1498337715661778946/7YEners2_400x400.jpg",
+    "image": "/avatars/rndao__.jpg",
     "twitter": "https://twitter.com/RnDAO__"
   },
   {
     "name": "The DAOist",
-    "image": "https://pbs.twimg.com/profile_images/1711586900891357184/K2pFrr1W_400x400.jpg",
+    "image": "/avatars/thedaoist_.jpg",
     "twitter": "https://twitter.com/TheDAOist_"
   },
   {
     "name": "Chinwags",
-    "image": "https://pbs.twimg.com/profile_images/1627014020304625664/8Eo4A_Ux_400x400.jpg",
+    "image": "/avatars/chinwags_xyz.jpg",
     "twitter": "https://twitter.com/chinwags_xyz"
   },
   {
     "name": "MetaCartel Ventures",
-    "image": "https://pbs.twimg.com/profile_images/1471254890844332033/5ZaeA5kz_400x400.jpg",
+    "image": "/avatars/venture_dao.jpg",
     "twitter": "https://twitter.com/VENTURE_DAO"
   },
   {
     "name": "DAOstar",
-    "image": "https://pbs.twimg.com/profile_images/1488925199676411908/bCqdQ_VG_400x400.jpg",
+    "image": "/avatars/daostar_one.jpg",
     "twitter": "https://twitter.com/DAOstar_One"
   },
   {
     "name": "Giveth",
-    "image": "https://pbs.twimg.com/profile_images/1440344140609294348/5dWIUeGd_400x400.jpg",
+    "image": "/avatars/giveth.jpg",
     "twitter": "https://twitter.com/giveth"
   },
   {
     "name": "MIDAO",
-    "image": "https://pbs.twimg.com/profile_images/1546574347317366784/OhG8wIs-_400x400.jpg",
+    "image": "/avatars/midaods.jpg",
     "twitter": "https://twitter.com/MIDAODS"
   },
   {
     "name": "coordinape",
-    "image": "https://pbs.twimg.com/profile_images/1626320537659101195/U_Xa_S8c_400x400.jpg",
+    "image": "/avatars/coordinape.jpg",
     "twitter": "https://twitter.com/coordinape"
   },
   {
     "name": "gnosis guild",
-    "image": "https://pbs.twimg.com/profile_images/1615852980716150786/DjJVMQgy_400x400.png",
+    "image": "/avatars/gnosisguild.png",
     "twitter": "https://twitter.com/gnosisguild"
   },
   {
     "name": "MGD DAO",
-    "image": "https://pbs.twimg.com/profile_images/1501324066619224064/S0iRdGzQ_400x400.jpg",
+    "image": "/avatars/metagammadelta.jpg",
     "twitter": "https://twitter.com/metagammadelta"
   },
   {
     "name": "dOrg",
-    "image": "https://pbs.twimg.com/profile_images/1507802020853526534/J6FkV3-T_400x400.jpg",
+    "image": "/avatars/dorg_tech.jpg",
     "twitter": "https://twitter.com/dOrg_tech"
   },
   {
     "name": "Cabin",
-    "image": "https://pbs.twimg.com/profile_images/1658591406255140864/B9kFb9ww_400x400.jpg",
+    "image": "/avatars/creatorcabins.jpg",
     "twitter": "https://twitter.com/creatorcabins"
   },
   {
     "name": "Hydra Ventures",
-    "image": "https://pbs.twimg.com/profile_images/1531325388273729538/r_e0YQIN_400x400.jpg",
+    "image": "/avatars/hydraventures_.jpg",
     "twitter": "https://twitter.com/HydraVentures_"
   },
   {
     "name": "Regens Unite",
-    "image": "https://pbs.twimg.com/profile_images/1640680588037304320/-ADQ0O1Y_400x400.jpg",
+    "image": "/avatars/regensunite.jpg",
     "twitter": "https://twitter.com/regensunite"
   },
   {
     "name": "Metagov",
-    "image": "https://pbs.twimg.com/profile_images/1405958117444173831/JUsPuQdZ_400x400.png",
+    "image": "/avatars/metagov_project.png",
     "twitter": "https://twitter.com/metagov_project"
   },
   {
     "name": "Mangrove",
-    "image": "https://pbs.twimg.com/profile_images/1660360628941324290/GQYSBPow_400x400.jpg",
+    "image": "/avatars/mangrovedao.jpg",
     "twitter": "https://twitter.com/MangroveDAO"
   },
   {
     "name": "Polygon",
-    "image": "https://pbs.twimg.com/profile_images/1624229555333373952/JXGKFcO__400x400.jpg",
+    "image": "/avatars/0xpolygonlabs.jpg",
     "twitter": "https://twitter.com/0xPolygonLabs"
   },
   {
     "name": "Nouns",
-    "image": "https://pbs.twimg.com/profile_images/1467601380567359498/oKcnQo_S_400x400.jpg",
+    "image": "/avatars/nounsdao.jpg",
     "twitter": "https://twitter.com/nounsdao"
   },
   {
     "name": "Bibliotheca DAO",
-    "image": "https://pbs.twimg.com/profile_images/1620170227395997697/XG91ZD2N_400x400.jpg",
+    "image": "/avatars/bibliothecadao.jpg",
     "twitter": "https://twitter.com/BibliothecaDAO"
   },
   {
     "name": "Push Protocol",
-    "image": "https://pbs.twimg.com/profile_images/1616110831975931909/5tUeoUR__400x400.png",
+    "image": "/avatars/pushprotocol.png",
     "twitter": "https://twitter.com/pushprotocol"
   },
   {
     "name": "Token Engineering Commons",
-    "image": "https://pbs.twimg.com/profile_images/1719079962911592448/04XLj6re_400x400.jpg",
+    "image": "/avatars/tecmns.jpg",
     "twitter": "https://twitter.com/TECmns"
   },
   {
     "name": "FTW DAO",
-    "image": "https://pbs.twimg.com/profile_images/1510346420921974786/lRs5NZw8_400x400.jpg",
+    "image": "/avatars/ftwdao.jpg",
     "twitter": "https://twitter.com/FTWDAO"
   },
   {
     "name": "Deep Work Studio",
-    "image": "https://pbs.twimg.com/profile_images/1586813962682785793/9Yb-BrRX_400x400.jpg",
+    "image": "/avatars/deepwork_studio.jpg",
     "twitter": "https://twitter.com/deepwork_studio"
   },
   {
     "name": "CityDAO",
-    "image": "https://pbs.twimg.com/profile_images/1428485179807391746/fYVHRZ3B_400x400.jpg",
+    "image": "/avatars/citydao.jpg",
     "twitter": "https://twitter.com/CityDAO"
   },
   {
     "name": "Pocket DAO",
-    "image": "https://pbs.twimg.com/profile_images/1404820061441851396/Tk4sHJr__400x400.jpg",
+    "image": "/avatars/poktdao.jpg",
     "twitter": "https://twitter.com/POKTdao"
   },
   {
     "name": "ShapeShift",
-    "image": "https://pbs.twimg.com/profile_images/1478891293388382208/8ecf__10_400x400.jpg",
+    "image": "/avatars/shapeshift.jpg",
     "twitter": "https://twitter.com/shapeshift"
   },
   {
     "name": "Optimism",
-    "image": "https://pbs.twimg.com/profile_images/1727100964941824000/_0ZsqEb-_400x400.jpg",
+    "image": "/avatars/optimismfnd.jpg",
     "twitter": "https://twitter.com/OptimismFND"
   },
   {
     "name": "Kokonut Network",
-    "image": "https://pbs.twimg.com/profile_images/1696900147685277696/LWQC6AyP_400x400.jpg",
+    "image": "/avatars/kokonutnetwork.jpg",
     "twitter": "https://twitter.com/KokonutNetwork"
   },
   {
     "name": "Gravity DAO",
-    "image": "https://pbs.twimg.com/profile_images/1708834237900546048/xBgPZ3Pk_400x400.jpg",
+    "image": "/avatars/gravitydao.jpg",
     "twitter": "https://twitter.com/GravityDAO"
   },
   {
     "name": "FactoryDAO",
-    "image": "https://pbs.twimg.com/profile_images/1505919882461913092/m-98TMBo_400x400.jpg",
+    "image": "/avatars/factdao.jpg",
     "twitter": "https://twitter.com/FactDAO"
   },
   {
     "name": "DAO Coalition",
-    "image": "https://pbs.twimg.com/profile_images/1571254461636685824/BbtPsqhb_400x400.jpg",
+    "image": "/avatars/daocoalition.jpg",
     "twitter": "https://twitter.com/DAOcoalition"
   },
   {
     "name": "funDAOmental",
-    "image": "https://pbs.twimg.com/profile_images/1568054574686310401/4soNFmpK_400x400.png",
+    "image": "/avatars/fundaomental.png",
     "twitter": "https://twitter.com/funDAOmental"
   },
   {
     "name": "1Hive",
-    "image": "https://pbs.twimg.com/profile_images/1276286557494837248/SgXEhvrc_400x400.png",
+    "image": "/avatars/1hiveorg.png",
     "twitter": "https://twitter.com/1HiveOrg"
   },
   {
     "name": "PDX DAO",
-    "image": "https://pbs.twimg.com/profile_images/1673498036117331970/0yJbHm3A_400x400.jpg",
+    "image": "/avatars/pdxdao.jpg",
     "twitter": "https://twitter.com/PDXDAO"
   },
   {
     "name": "ReligioDAO",
-    "image": "https://pbs.twimg.com/profile_images/1712094900001320960/NlwaXTIv_400x400.jpg",
+    "image": "/avatars/religiodao.jpg",
     "twitter": "https://twitter.com/ReligioDAO"
   },
   {
     "name": "Purple DAO",
-    "image": "https://pbs.twimg.com/profile_images/1630261512324681731/RVR167bb_400x400.jpg",
+    "image": "/avatars/purplecasts.jpg",
     "twitter": "https://twitter.com/purplecasts"
   },
   {
     "name": "ATX DAO",
-    "image": "https://pbs.twimg.com/profile_images/1682054129605025793/uQfphU38_400x400.jpg",
+    "image": "/avatars/atxdao.jpg",
     "twitter": "https://twitter.com/ATXDAO"
   },
   {
     "name": "Wise Crowds",
-    "image": "https://pbs.twimg.com/profile_images/1575488715866021889/vyruf521_400x400.jpg",
+    "image": "/avatars/wisecrowdslsdao.jpg",
     "twitter": "https://twitter.com/WiseCrowdsLSDAO"
   },
   {
     "name": "JournoDAO",
-    "image": "https://pbs.twimg.com/profile_images/1580953632001794049/MntFM6wF_400x400.jpg",
+    "image": "/avatars/journodao.jpg",
     "twitter": "https://twitter.com/JournoDAO"
   },
   {
     "name": "Reputable Health",
-    "image": "https://pbs.twimg.com/profile_images/1629899805609824256/uIlncfgQ_400x400.jpg",
+    "image": "/avatars/reputabledao.jpg",
     "twitter": "https://twitter.com/ReputableDAO"
   },
   {
     "name": "AthensDAO",
-    "image": "https://pbs.twimg.com/profile_images/1716506328254873600/NjpXZWrs_400x400.jpg",
+    "image": "/avatars/athensdaox.jpg",
     "twitter": "https://twitter.com/AthensDAOx"
   }
 ]
