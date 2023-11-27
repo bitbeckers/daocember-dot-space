@@ -2,97 +2,97 @@
   {
     "name": "Jack du Rose",
     "twitter": "https://twitter.com/jackdurose",
-    "image": "https://storage.tally.so/private/Trippy-Jack.jpg?id=KpZJJ8&accessToken=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IktwWkpKOCIsImZvcm1JZCI6Im1KbFl6UiIsImlhdCI6MTY5OTU0MTIzMH0.qiZRX7bgL5oCSDEgDwtZLPcJVfoS6L2IcsqKkwtE1E0&signature=c033467565d25dd05783beb86cb709c919680258d8171738e310499a6e799a17"
+    "image": "/avatars/jackdurose.jpg"
   },
   {
     "name": "Richard D. Bartlett",
     "twitter": "https://twitter.com/richdecibels",
-    "image": "https://storage.tally.so/private/PXL_20220209_123722416.PORTRAIT~2.jpg?id=8N4LAx&accessToken=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjhONExBeCIsImZvcm1JZCI6Im1KbFl6UiIsImlhdCI6MTcwMDU1ODc3N30.oJFhXvOwpmdAVVIpp-AWhsbglcPbSR9jgtISX8DpvGc&signature=a30d7be7c605307557ff501122c95561f55e46af57aedc855b1f3fb621770716"
+    "image": "/avatars/richdecibels.jpg"
   },
   {
     "name": "0xJustice",
     "twitter": "https://twitter.com/singularityhack",
-    "image": "https://storage.tally.so/private/lMpRSnSM_400x400.jpg?id=aOgV6B&accessToken=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6ImFPZ1Y2QiIsImZvcm1JZCI6Im1KbFl6UiIsImlhdCI6MTcwMDE0OTA0OH0.OOXKML00OjULzemrkcfK0kL1qdV8Xv_f3fuzR36eDGc&signature=03c44488258ea70a28856660d38f80564ee88e88aa439b19a93d49ed45848b1f"
+    "image": "/avatars/singularityhack.jpg"
   },
   {
     "name": "zakku",
     "twitter": "https://twitter.com/fifthworldzach",
-    "image": "https://storage.tally.so/private/against-forgetting.png?id=OQMAdR&accessToken=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6Ik9RTUFkUiIsImZvcm1JZCI6Im1KbFl6UiIsImlhdCI6MTcwMDU3NjE3Mn0.PiJnrGFdppdmO2cSE0t3di-L4Oe_pk2xo-5b28VWfXQ&signature=aab8531f339026b81260dc7b72b7d7b6885f232f4719cea00b22176629246b1f"
+    "image": "/avatars/fifthworldzach.png"
   },
   {
     "name": "peth.eth",
     "twitter": "https://twitter.com/petheth",
-    "image": "https://pbs.twimg.com/profile_images/1349660293778067456/x4HwomRZ_400x400.jpg"
+    "image": "/avatars/petheth.jpg"
   },
   {
     "name": "Katerina",
     "twitter": "https://twitter.com/katerinabohlec",
-    "image": "https://storage.tally.so/private/Kat_studio_Sesion.tif-45-2.jpg?id=Dq6oPb&accessToken=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IkRxNm9QYiIsImZvcm1JZCI6Im1KbFl6UiIsImlhdCI6MTcwMDY0NjI4M30.4woHyun-Wxtx_i7T7FnNQGTi_sxxhzYv50bk0I_je3o&signature=cb1fe2736556545c6cb185088d55d267ce247b48f3ec6b83b9adf3aba9251d0a"
+    "image": "/avatars/katerinabohlec.jpg"
   },
   {
     "name": "Owocki",
     "twitter": "https://twitter.com/owocki",
-    "image": "https://storage.tally.so/private/kevin_headshot_highres-768x512.jpg?id=7Xzovz&accessToken=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjdYem92eiIsImZvcm1JZCI6Im1KbFl6UiIsImlhdCI6MTY5OTUzNTI5OH0.Pq6MOJYVFZfO-qXM8p6W0H9ZPj0k00T0tYXpAa_Ledo&signature=0a890354e7eb2dad3d087ed8230209001ccb2095abf09eb83ff5b2ba4a8016ea"
+    "image": "/avatars/owocki.jpg"
   },
   {
     "name": "David Ehrlichman",
     "twitter": "https://twitter.com/davehrlichman",
-    "image": "https://storage.tally.so/private/usgs-NhORwuiTg_U-unsplash.jpg?id=zEoW5R&accessToken=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6InpFb1c1UiIsImZvcm1JZCI6Im1KbFl6UiIsImlhdCI6MTY5OTk4NjkyMn0.pM5p6H5RIZjeBjZhDLyJ1APToJbs36G5VDuC_cA4W3g&signature=7793b5ca5f0425d40a37f76926e43e153a7967fa7b4c312895229b49f167306e"
+    "image": "/avatars/davehrlichman.jpg"
   },
   {
     "name": "willywonka.eth",
     "twitter": "https://twitter.com/willyogo",
-    "image": "https://storage.tally.so/private/willy-headshot.png?id=q51JJ5&accessToken=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6InE1MUpKNSIsImZvcm1JZCI6Im1KbFl6UiIsImlhdCI6MTcwMDYwMTQzNX0.VA6-s88138As27lo4hdv3Bal-U4UEKDwwuZReAX-JGA&signature=8a639c3cc22f7bab93a2b63dda7be3cb3e0d33a1a9540fd75f2422c906dd2532"
+    "image": "/avatars/willyogo.png"
   },
   {
     "name": "Yalor",
     "twitter": "https://twitter.com/yalormewn",
-    "image": "https://storage.tally.so/private/IMG_4181.jpeg?id=vXappv&accessToken=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6InZYYXBwdiIsImZvcm1JZCI6Im1KbFl6UiIsImlhdCI6MTcwMDE0MDIyNn0.HOprNfy761ZfK0437p3KYrQseK5XQMMAXZlDy2m9OHI&signature=e0eba3e6f58d96caf4d28596f70842538ec5007c20272c96bbc9a066753bdcf1"
+    "image": "/avatars/yalormewn.jpeg"
   },
   {
     "name": "Ann",
     "twitter": "https://twitter.com/annbrody7",
-    "image": "https://storage.tally.so/private/photo_2023-01-09-11.24.09-copy.jpeg?id=YjlzXB&accessToken=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IllqbHpYQiIsImZvcm1JZCI6Im1KbFl6UiIsImlhdCI6MTcwMDU5MDg5NX0.6JfCdTjiaM6_8Tg5nYPC2vdcFzLGITGQOjvBiXO908c&signature=956708088f9fbcd9d0e1c9616e254a8c0caddf18d8b199fe9171b50d2312e340"
+    "image": "/avatars/annbrody7.jpeg"
   },
   {
     "name": "Ξ2T",
     "twitter": "https://twitter.com/earth2travis",
-    "image": "https://storage.tally.so/private/dope.png?id=yX5EaW&accessToken=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6InlYNUVhVyIsImZvcm1JZCI6Im1KbFl6UiIsImlhdCI6MTcwMDU4ODQ1M30.L7X6Fvnmn6E5SNj5Sl1pygieIZHJLdS2hKpKZkHufD4&signature=d5a4b85df26e07719ec947cb6030778d170b06140d935bd658d4d924ace639ef"
+    "image": "/avatars/earth2travis.png"
   },
   {
     "name": "b3nnn",
     "twitter": "https://twitter.com/b3nnn21",
-    "image": "https://storage.tally.so/private/PeepOWL.png?id=Z9rzdv&accessToken=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6Ilo5cnpkdiIsImZvcm1JZCI6Im1KbFl6UiIsImlhdCI6MTcwMDU4NjY1OX0.V_HKWcfWLkZUQedoWd2GOZF-bwIFcYcDneme8e0spDo&signature=e060bf6c27144accff484cdb7114745bcad1cea71bd146823cb84e61a38fa55c"
+    "image": "/avatars/b3nnn21.png"
   },
   {
     "name": "Victor Rortvedt",
     "twitter": "https://twitter.com/twoirtter",
-    "image": "https://storage.tally.so/private/pixelbio.png?id=q51P79&accessToken=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6InE1MVA3OSIsImZvcm1JZCI6Im1KbFl6UiIsImlhdCI6MTcwMDU4MDU3MX0.YFc-mRZHx1ZETJ2bhqNiwLtWrOJEdQadx7bknVdtGks&signature=74a9b25806f9ec41d6a480161e00609e973c6dcdbc78ff907427991d7b578b9e"
+    "image": "/avatars/twoirtter.png"
   },
   {
     "name": "Rolf Hoefer",
     "twitter": "https://twitter.com/RolfHoefer",
-    "image": "https://storage.tally.so/private/rolfHoefer.jpg?id=7Xr2AA&accessToken=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjdYcjJBQSIsImZvcm1JZCI6Im1KbFl6UiIsImlhdCI6MTcwMDU3MTYzMH0.d04JRqBn-n8DLRxKmTd8IMDyePsdChYjufCEAT4yWyo&signature=52f8e1894c43dfb4d2f786944b10a262b03e4e93b76c201069a33917a7a326cd"
+    "image": "/avatars/rolfhoefer.jpg"
   },
   {
     "name": "Daniel Ospina",
     "twitter": "https://twitter.com/_daniel_ospina",
-    "image": "https://storage.tally.so/private/Conference-Pic--Daniel-Ospina.jpg?id=Qoq1Ag&accessToken=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IlFvcTFBZyIsImZvcm1JZCI6Im1KbFl6UiIsImlhdCI6MTcwMDA0MjEwN30.6k8uRjRzH_HYj5NLk0b0DI4y9gI2-SYQgFNuj6QJVWE&signature=f988d358735428a903090957c9c67e6e70141069b4bfd02c661e5a69a5d24a88"
+    "image": "/avatars/_daniel_ospina.jpg"
   },
   {
     "name": "BPetes",
     "twitter": "https://twitter.com/BryanPetes",
-    "image": "https://storage.tally.so/private/Chippi_Bpetes-jpg.jpg?id=dbVApK&accessToken=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6ImRiVkFwSyIsImZvcm1JZCI6Im1KbFl6UiIsImlhdCI6MTY5OTM3MjgyN30.rfEYHH8hQxzuRcm_SU5E0O02p-1WOmCAw9lifhS3-dc&signature=afb39959b548b3fc43e63548cc5161a386b2c3499d6409d64ed52a6db4d81efd"
+    "image": "/avatars/bryanpetes.jpg"
   },
   {
     "name": "Aaron Soskin",
     "twitter": "https://twitter.com/AaronSoskin",
-    "image": "https://storage.tally.so/private/AaronSoskin_Govrn.jpg?id=4aRLrX&accessToken=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjRhUkxyWCIsImZvcm1JZCI6Im1KbFl6UiIsImlhdCI6MTY5OTkxMDM2N30.HcXZYM-wrOUb3Vl3Uwxl1JzNgj3XmEzdW2Ssp5dzsaY&signature=9e6c17b334276a62db6fa98f5e1cd8d3deb9a43cbb3bc13d2c5d5a608f144ae8"
+    "image": "/avatars/aaronsoskin.jpg"
   },
   {
     "name": "Auryn MacMillan",
     "twitter": "https://twitter.com/auryn_macmillan",
-    "image": "https://storage.tally.so/private/pixelportrait.jpg?id=PRWj8d&accessToken=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IlBSV2o4ZCIsImZvcm1JZCI6Im1KbFl6UiIsImlhdCI6MTY5OTY0Mjk5NH0.FDKDVwSepzEMTH1KsVoL9oQrE1ZDcjOUpSU-Lrz6NC8&signature=71e79197b575752707f1e839c0708e7d040ca58cfdd09d49f78db8dbd9d352a4"
+    "image": "/avatars/auryn_macmillan.jpg"
   },
   {
     "name": "Travis W.",
@@ -102,196 +102,196 @@
   {
     "name": "Andrej Berlin",
     "twitter": "https://twitter.com/kischiman",
-    "image": "https://storage.tally.so/private/IMG_20231118_222907_597~2.jpg?id=7Xrxv6&accessToken=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjdYcnh2NiIsImZvcm1JZCI6Im1KbFl6UiIsImlhdCI6MTcwMDU2NTU2NX0.vxqkfYgGeIxsSww1_y1JtuUMuMmuQ4S2ExResoCY96I&signature=ca6c82d61049a4369175b34845a4325e5df291d7ecbd97496b673cf34e126dcf"
+    "image": "/avatars/kischiman.jpg"
   },
   {
     "name": "Grace Rachmany",
     "twitter": "https://twitter.com/rebeccarachmany",
-    "image": "https://storage.tally.so/private/RRWind.jpg?id=RWQ07K&accessToken=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IlJXUTA3SyIsImZvcm1JZCI6Im1KbFl6UiIsImlhdCI6MTcwMDA2OTQ4NX0.ZyUk1Ug_d8f_w-tbHOmtUoYaSCv6ZwUbvWrt4E3FGpQ&signature=0cabda86b5a6c0813edc1d72aee4d71f1feb108c07836f420387547247dd9f15"
+    "image": "/avatars/rebeccarachmany.jpg"
   },
   {
     "name": "Elco",
     "twitter": "https://twitter.com/duartedao",
-    "image": "https://pbs.twimg.com/profile_images/1613906672996474880/jDxDurpL_400x400.jpg"
+    "image": "/avatars/duartedao.jpg"
   },
   {
     "name": "OrnellaWeb3",
     "twitter": "https://twitter.com/OrnellaWeb3",
-    "image": "https://storage.tally.so/private/OrnellaWeb3---PFP-2.jpg?id=5XP2oE&accessToken=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjVYUDJvRSIsImZvcm1JZCI6Im1KbFl6UiIsImlhdCI6MTcwMDczMjk1N30.0oHkAJqnaFVzjL6czZSu7t2LTeBEEDvf4HcrvxEeboI&signature=d44585ac61e7e39963bfffaadfabafcfc5a161bca1a156a0e40fe985684a7040"
+    "image": "/avatars/ornellaweb3.jpg"
   },
   {
     "name": "Christina, BorrowLucid",
     "twitter": "https://twitter.com/BorrowLucid",
-    "image": "https://storage.tally.so/private/IMG_6803.jpg?id=ArgdVD&accessToken=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IkFyZ2RWRCIsImZvcm1JZCI6Im1KbFl6UiIsImlhdCI6MTcwMDg4MDY3M30.Cih4qOAxEmawGk2pVav3rWdDhNhE_Jk2_P9KLz3nZrg&signature=5622336dcb14b39600a9c2310f65ff29b1183596e0bab3dec2b701f2d5c4a704"
+    "image": "/avatars/borrowlucid.jpg"
   },
   {
     "name": "Feems",
     "twitter": "https://twitter.com/Feemschats",
-    "image": "https://storage.tally.so/private/IMG_5260.jpeg?id=rDZ4LN&accessToken=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6InJEWjRMTiIsImZvcm1JZCI6Im1KbFl6UiIsImlhdCI6MTcwMDgxNzE3N30.7R4r3edckUkXSMK_fgGzKMjLY7C5zH2jjawgGjTVG88&signature=753a7108c2d94a6bb5ba8c2202c150f4318c224400828d8044d0e3051ece2549"
+    "image": "/avatars/feemschats.jpeg"
   },
   {
     "name": "Jaf",
     "twitter": "https://twitter.com/jafetsc",
-    "image": "https://storage.tally.so/private/foto.jpg?id=LDjKap&accessToken=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IkxEakthcCIsImZvcm1JZCI6Im1KbFl6UiIsImlhdCI6MTcwMDA1NDM3MX0.XCILdyp7kA7aLP7lzzS87cVaTa7Zc_Sg1x5lag8J9tI&signature=e3788a61ca99eb1eeee6b44d1ae4e9bfb1b07c4bf6a78a6e34e40b4ac89c62a2"
+    "image": "/avatars/jafetsc.jpg"
   },
   {
     "name": "nintynick",
     "twitter": "https://twitter.com/0xNN2",
-    "image": "https://storage.tally.so/private/ES5XnMPj_400x400.jpg?id=GeyrrQ&accessToken=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IkdleXJyUSIsImZvcm1JZCI6Im1KbFl6UiIsImlhdCI6MTY5OTM2OTQzMn0.5RY59JpG9JsNlDrur0TV-3smMBAc-2VQFiuFPcd94ME&signature=fae7190e79bba09e88bc0e05726744829fd18f19be7dc6ac707d8553ae9c3728"
+    "image": "/avatars/0xnn2.jpg"
   },
   {
     "name": "SkyMine",
     "twitter": "https://twitter.com/0xSkyMine",
-    "image": "https://storage.tally.so/private/Public-Noun.png?id=pe6b0q&accessToken=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6InBlNmIwcSIsImZvcm1JZCI6Im1KbFl6UiIsImlhdCI6MTY5OTY0Njk2NH0.ag07I5qJ7Va5f2IiHqy87OS0o6I93h7dCYfNcR_CDsI&signature=9428e788f7e4bf3958da9374ced35257375c2338558adfd8136eb6a40702225e"
+    "image": "/avatars/0xskymine.png"
   },
   {
     "name": "Jawna",
     "twitter": "https://twitter.com/jawna_standish",
-    "image": "https://storage.tally.so/private/IMG_5245.jpeg?id=Z9kOXV&accessToken=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6Ilo5a09YViIsImZvcm1JZCI6Im1KbFl6UiIsImlhdCI6MTcwMDIyODg2M30.7MSsSWPNN7dFTPvFmvmF5dcMu243LS1LsYw7xuBazks&signature=b462eed2da1a3972ad70bf21dd21aa44901998c8de1e2cb0be224dc5703e5912"
+    "image": "/avatars/jawna_standish.jpeg"
   },
   {
     "name": "jengajojo",
     "twitter": "https://twitter.com/jengajojo",
-    "image": "https://storage.tally.so/private/Rick-and-morty-mr-poopybutthole-1293372.jpg?id=jerPr4&accessToken=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6ImplclByNCIsImZvcm1JZCI6Im1KbFl6UiIsImlhdCI6MTcwMDA2MTU2Mn0.ETZFNVTkg0GP-XDynl5Vx62nH9L0QzV8TEDxANQi1yg&signature=1df2a06a1a80842cdd9b58f7b8576f40eb2cb04a512df3dd7e1b282089eb4061"
+    "image": "/avatars/jengajojo.jpg"
   },
   {
     "name": "1sla.eth",
     "twitter": "https://twitter.com/0xisla",
-    "image": "https://storage.tally.so/private/isla_fun_bio.png?id=KpZdrg&accessToken=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IktwWmRyZyIsImZvcm1JZCI6Im1KbFl6UiIsImlhdCI6MTY5OTYzMzQ1Mn0.q7nVAE9QeQ7QoNQriDDl28DyeqGb4KMDTYhO0NoTB84&signature=35df20e7aabe7965ad0096389c131a6f587abb889ab217dcdf57c5d137a52f79"
+    "image": "/avatars/0xisla.png"
   },
   {
     "name": "penguin",
     "twitter": "https://twitter.com/c0mput3rxz",
-    "image": "https://storage.tally.so/private/pengpunk.png?id=Kp4rpK&accessToken=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IktwNHJwSyIsImZvcm1JZCI6Im1KbFl6UiIsImlhdCI6MTcwMDE2NjY0N30.j-aCs6DJVDvwdfwENIckWyYc82m5XWX9AOkBkfMWfXA&signature=c9ef2c440c6db42902735d2b35ad096d8065324f2a785418b6ef1303712cafbe"
+    "image": "/avatars/c0mput3rxz.png"
   },
   {
     "name": "Rich",
     "twitter": "https://twitter.com/honestly_rich",
-    "image": "https://storage.tally.so/private/Rich.jpeg?id=LDyBjz&accessToken=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IkxEeUJqeiIsImZvcm1JZCI6Im1KbFl6UiIsImlhdCI6MTY5OTQzNzkzMX0.qcnHuiJFQjgljloAQ940ZgzBJmBVqY0xjFjOXHTeHRU&signature=163503191b33db4dc92eb09c1aa637a9a215694d216abb4d2f2dd4e382e04c76"
+    "image": "/avatars/honestly_rich.jpeg"
   },
   {
     "name": "Jeremy",
     "twitter": "https://twitter.com/gospelofochange",
-    "image": "https://storage.tally.so/private/7F6C9497-A686-4F1B-83AF-F71FD76C6DDD.png?id=RWQrkP&accessToken=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IlJXUXJrUCIsImZvcm1JZCI6Im1KbFl6UiIsImlhdCI6MTcwMDEzMjk3N30.vStOhGVoWF9KrAVKJhTj7_U6IbJkIT25gJiqHg4fLBI&signature=664bee44c21ff30ccea6ff82bac8a2467926f6d55fcc1c5feffa817526f4a7ac"
+    "image": "/avatars/gospelofochange.png"
   },
   {
     "name": "Bryn Bennett",
     "twitter": "https://twitter.com/0xSkrillah",
-    "image": "https://storage.tally.so/private/new-NFT.jpg?id=q5qK79&accessToken=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6InE1cUs3OSIsImZvcm1JZCI6Im1KbFl6UiIsImlhdCI6MTcwMDA5NDk5M30.n_fI0WeKWA12h2JY4JeLtwJuRVWPyHTD4tcvg-9Hfd8&signature=610034c7e284b6a427773d5632a3abfde131bcbc8736b4cb72e404368cb8fada"
+    "image": "/avatars/0xskrillah.jpg"
   },
   {
     "name": "Adam Miller",
     "twitter": "https://twitter.com/0xThriller",
-    "image": "https://storage.tally.so/private/Adam-Miller.jpeg?id=dboYMy&accessToken=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6ImRib1lNeSIsImZvcm1JZCI6Im1KbFl6UiIsImlhdCI6MTcwMDA3MjkyOH0.LcJICnK69XIZMtQ3sr2gttfp_QVBC89fpFL06nZx5_4&signature=6d7548e28f143b3b42c96fbb303d1d1592149eabff88fafb32e59aa4a537d7cc"
+    "image": "/avatars/0xthriller.jpeg"
   },
   {
     "name": "Chuy",
     "twitter": "https://twitter.com/TralfamadorNode",
-    "image": "https://storage.tally.so/private/CG23.png?id=QoqDyg&accessToken=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IlFvcUR5ZyIsImZvcm1JZCI6Im1KbFl6UiIsImlhdCI6MTcwMDA2ODc5NX0.HXpSBNqn0PLYfNuSTL4KSHUdYGz5q59FjHZE7W2KzXQ&signature=39ca6c157f7d02c413a63e5661e05f2c358ce1a8d03b5369c9c09df2a5ff3f6d"
+    "image": "/avatars/tralfamadornode.png"
   },
   {
     "name": "Rahul",
     "twitter": "https://twitter.com/gigarahul",
-    "image": "https://storage.tally.so/private/photo_2020-10-27_19-40-46.jpg?id=o9Z70X&accessToken=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6Im85WjcwWCIsImZvcm1JZCI6Im1KbFl6UiIsImlhdCI6MTcwMDE3NjcwOH0.J0PCaiMCbAfp-1pi_niGGmLaOnlpyYkC0FTtUvO8-Gg&signature=932f926428a2343f57e1f50a39763e98a58ffc4efcd42a22f4349a399d3e84b3"
+    "image": "/avatars/gigarahul.jpg"
   },
   {
     "name": "Rob Morris",
     "twitter": "https://twitter.com/Recipromancer",
-    "image": "https://storage.tally.so/private/recipromancer-new.JPG?id=ArNAMl&accessToken=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IkFyTkFNbCIsImZvcm1JZCI6Im1KbFl6UiIsImlhdCI6MTY5OTkzNjA3N30.bxmXBtzwU-ZQL9D_rfJFYFhTDHMlnQl39mELrXF2_dU&signature=d16165e626f95bb55b277eda7cd8fad8cf456bf3b9701ac72299b0d6027d7455"
+    "image": "/avatars/recipromancer.JPG"
   },
   {
     "name": "Nichanan",
     "twitter": "https://twitter.com/nichanank",
-    "image": "https://storage.tally.so/private/nich-lemur.jpeg?id=2jzr7D&accessToken=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjJqenI3RCIsImZvcm1JZCI6Im1KbFl6UiIsImlhdCI6MTY5OTkwOTg1Mn0.lvMHJPupdUJp9GFo9VP5G009AHr9QTi3mDUfelZ1lhw&signature=d9c8855c8afed5106df92dd2ac93bf1e636f836a41f8adc4e43fa5673fa2e6eb"
+    "image": "/avatars/nichanank.jpeg"
   },
   {
     "name": "philh",
     "twitter": "https://twitter.com/phil_h",
-    "image": "https://storage.tally.so/private/Scratched-ClayPunk-0296.jpg?id=q57PE7&accessToken=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6InE1N1BFNyIsImZvcm1JZCI6Im1KbFl6UiIsImlhdCI6MTY5OTcyMTMwN30.iOv_rkmK3SehCThk0_6e--xWxuYEO2UoeQWo4QtuUgI&signature=7300e854c360dbde4600253c86d610f3c3841e1a19ba82e0858f2e897cc04f62"
+    "image": "/avatars/phil_h.jpg"
   },
   {
     "name": "Juan Carlos",
     "twitter": "https://twitter.com/bellcho",
-    "image": "https://storage.tally.so/private/IMG_1207_2.jpeg?id=8NgKkl&accessToken=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjhOZ0trbCIsImZvcm1JZCI6Im1KbFl6UiIsImlhdCI6MTY5OTcwMzYwN30.GUtRkyS-d8MtRDQn4euEycSf3mWuNeZ_UtF0OfDE8WU&signature=8a8411f549a1be6e201fe07bfcd7b6ab0725bb761c40213c38a420208e4f2292"
+    "image": "/avatars/bellcho.jpeg"
   },
   {
     "name": "Cotabe",
     "twitter": "https://twitter.com/Cotabe_M",
-    "image": "https://storage.tally.so/private/Giver-33---Official-Cotabe.png?id=rD1Gy5&accessToken=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6InJEMUd5NSIsImZvcm1JZCI6Im1KbFl6UiIsImlhdCI6MTY5OTU1MjQ5OX0.4-Z1l5nG3RepB9xIR9D4vj6gtSMuG2bg-AY04NNKoWw&signature=2631fd21910bb3a21b7f23f0733fad3e8004d86106ba2aa504a4f021348d0f7b"
+    "image": "/avatars/cotabe_m.png"
   },
   {
     "name": "Wasabi",
     "twitter": "https://twitter.com/WasabiNetwork",
-    "image": "https://storage.tally.so/private/w.jpg?id=kb15kr&accessToken=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6ImtiMTVrciIsImZvcm1JZCI6Im1KbFl6UiIsImlhdCI6MTY5OTUzNjYzMX0.Hy-n6DXdyFufSskwsBJCk_jXarAt7P8hJ313CT-7wO0&signature=978af55de342cbea953a119782cc56f8f81df1fcf428f58a66f582e804de4dba"
+    "image": "/avatars/wasabinetwork.jpg"
   },
   {
     "name": "Eugene",
     "twitter": "https://twitter.com/bbeats1",
-    "image": "https://storage.tally.so/private/Headshot-smaller-file-size.jpg?id=zEvKDE&accessToken=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6InpFdktERSIsImZvcm1JZCI6Im1KbFl6UiIsImlhdCI6MTY5OTM2OTM3NX0.xtc4BMlm6h6yq1s2qeB0cxj3lH-KAMxT3EyuyZZ_K6U&signature=55c9d2b6c7d19b1e85118286823c4a7219a834fd934f1dc2530df580e8f6fb47"
+    "image": "/avatars/bbeats1.jpg"
   },
   {
     "name": "Clinamenic",
     "twitter": "https://twitter.com/clinamenic",
-    "image": "https://storage.tally.so/private/SSC-Logo-Clinamenic-LLC.png?id=pe9OaE&accessToken=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6InBlOU9hRSIsImZvcm1JZCI6Im1KbFl6UiIsImlhdCI6MTY5OTM2NDQ5OH0.uNxWfRgdn9CyvE4csVNFsnvCZPjwgqEXcIexinDPAGo&signature=8c007c57acdbaee8eafe14a23ce87cfbac9f24b8acb1b998b9326fef471c45b9"
+    "image": "/avatars/clinamenic.png"
   },
   {
     "name": "boiler",
     "twitter": "https://twitter.com/boilerrat",
-    "image": "https://storage.tally.so/private/PNoun237_300x300.png?id=e5PQpQ&accessToken=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6ImU1UFFwUSIsImZvcm1JZCI6Im1KbFl6UiIsImlhdCI6MTY5OTM1NDAyOH0.PbEwt8e4YAaWV69-hGr1jac9Z43acVr9SNDTDZ72WDw&signature=e3ca5ac63e8d4ee676600c5b5c43f4fb1a4707b014481610230c971534e500fa"
+    "image": "/avatars/boilerrat.png"
   },
   {
     "name": "Sov",
     "twitter": "https://twitter.com/sovereignsignal",
-    "image": "https://storage.tally.so/private/sovignal.jpg?id=vX5jE4&accessToken=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6InZYNWpFNCIsImZvcm1JZCI6Im1KbFl6UiIsImlhdCI6MTcwMDUzNTg2MX0.3Ws5pwpUg_JXb8mW8S-FyKWz3_xjPJoy509fH05K_C4&signature=eacf9a18f630c7fe6be2915d7cd22a6e5c56d6e33171ae56a61d2cd2f155e787"
+    "image": "/avatars/sovereignsignal.jpg"
   },
   {
     "name": "Kyle | bestape",
     "twitter": "https://twitter.com/bestape",
-    "image": "https://storage.tally.so/private/kyle.jpeg?id=BERzD1&accessToken=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IkJFUnpEMSIsImZvcm1JZCI6Im1KbFl6UiIsImlhdCI6MTcwMDY4NTI2NX0.4qMvFb8tN6DQQL8rWhY5PAPnp8v8Zx0A1V8dY_zo_UI&signature=fe5424c32a86d5359c7c426633f9fd8ed1b3f1dd3fcaaf7cef2bb85aff834372"
+    "image": "/avatars/bestape.jpeg"
   },
   {
     "name": "tae",
     "twitter": "https://twitter.com/raidguild",
-    "image": "https://storage.tally.so/private/rosettenebula.jpeg?id=0VWZqP&accessToken=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjBWV1pxUCIsImZvcm1JZCI6Im1KbFl6UiIsImlhdCI6MTcwMDc1NTcyNX0.arbI85tb5pgIpbIvEualaG3Z02jX8cm1t4F3jtNmMYU&signature=68b4f219ca42f71c6f879c5d7d641cef4d7ead06487bcb03e1a0c326896be9f1"
+    "image": "/avatars/raidguild.jpeg"
   },
   {
     "name": "Anna",
     "twitter": "https://twitter.com/kaicanna",
-    "image": "https://storage.tally.so/private/123712511_10221122758370087_2298697075457503889_n---kopija.jpg?id=NqjrbO&accessToken=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6Ik5xanJiTyIsImZvcm1JZCI6Im1KbFl6UiIsImlhdCI6MTcwMDg1MTI2OX0._4xz5V6tCyS9wt_GK1gU9fEoR3G2D7ENQyYwnbxqK7g&signature=4a64bf174c9222dc68e11da6e459225ca1201486ff5530b899627382f66ec29f"
+    "image": "/avatars/kaicanna.jpg"
   },
   {
     "name": "Chris Carella",
     "twitter": "https://twitter.com/ccarella",
-    "image": "https://storage.tally.so/private/IMG_4142.jpeg?id=4ayJLd&accessToken=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjRheUpMZCIsImZvcm1JZCI6Im1KbFl6UiIsImlhdCI6MTY5OTQ5NzcyMn0.BAI3uJHVSvGdAiKi9u9Bwb9KSN4ttIo0asZoSWoNhBI&signature=b6ddcfb8f73a0445c3ddd1da409a3ad79200eb50a35a6525faec24525c4282eb"
+    "image": "/avatars/ccarella.jpeg"
   },
   {
     "name": "Chiali",
     "twitter": "https://twitter.com/chia_tea",
-    "image": "https://storage.tally.so/private/cfS_VBtq_400x400.jpg?id=OQMbJA&accessToken=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6Ik9RTWJKQSIsImZvcm1JZCI6Im1KbFl6UiIsImlhdCI6MTcwMDYwMDI1MH0.6PcGSFxmDAsMQ81US5GtMcLT9-EfvuHsI3D_aGrb0kU&signature=6668c5cbe7af2164d96fcd9337a4a5e1303b093ad5394c18a8bd63d7f0b4c957"
+    "image": "/avatars/chia_tea.jpg"
   },
   {
     "name": "Zaal",
     "twitter": "https://twitter.com/nftgamerweb3",
-    "image": "https://storage.tally.so/private/IMG_9581.jpeg?id=LDLMr1&accessToken=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IkxETE1yMSIsImZvcm1JZCI6Im1KbFl6UiIsImlhdCI6MTcwMDU5MTA0N30.Bu0-fsNZji2CdUG712zVTHX8QVRRgEPB8K0d5VP2O2w&signature=2dbd5ac7b0ce1b17514e46bfda4c1fe02a4f5f66c078f33dae73cea82ecb4298"
+    "image": "/avatars/nftgamerweb3.jpeg"
   },
   {
     "name": "Pablo Moncada",
     "twitter": "https://twitter.com/pablo_moncada",
-    "image": "https://storage.tally.so/private/me.jpg?id=bZGvJ7&accessToken=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6ImJaR3ZKNyIsImZvcm1JZCI6Im1KbFl6UiIsImlhdCI6MTY5OTQwOTE4OX0.mQ-07Jgjmt29PP7I7oAuUkrZjMKWuiWH-RH5MazVzKA&signature=f7592effc3a55287b11715c6fc4e5972a89049c559789b2553722054a37fae72"
+    "image": "/avatars/pablo_moncada.jpg"
   },
   {
     "name": "links aka Al Mithani",
     "twitter": "https://twitter.com/almithani",
-    "image": "https://storage.tally.so/private/luffy_quote.jpg?id=BEVExY&accessToken=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IkJFVkV4WSIsImZvcm1JZCI6Im1KbFl6UiIsImlhdCI6MTY5OTY1MDc2M30.J6GMyz50HUwKuheWnaXQrgleMg8qLL8epiOPOBqUArU&signature=2e1caad5d0e8784409923b9f2b91155b43c446e500ac5e99a6ef8734d89a2d5b"
+    "image": "/avatars/almithani.jpg"
   },
   {
     "name": "Gerrit",
     "twitter": "https://twitter.com/0xgerritbr",
-    "image": "https://storage.tally.so/private/1662987427044.jpeg?id=xVqV2v&accessToken=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6InhWcVYydiIsImZvcm1JZCI6Im1KbFl6UiIsImlhdCI6MTcwMDg0NzQ0M30.31Cjr2sZkBWKg4vB1oMsm7ZEzUnZogtv7JjA5G6FuKM&signature=4d41e03d484987b5d644c4b5a7ace4566742aa535d1f554ea4838b39e30cf46f"
+    "image": "/avatars/0xgerritbr.jpeg"
   },
   {
     "name": "Joshua",
     "twitter": "https://twitter.com/jb87ua",
-    "image": "https://storage.tally.so/private/jnew.jpeg?id=9NjA9V&accessToken=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjlOakE5ViIsImZvcm1JZCI6Im1KbFl6UiIsImlhdCI6MTcwMDY1MTg1NH0.22_DNw2v0YEw-3V3Nrr2Obzmrspwc6NMeQFH9lB7B6w&signature=955406839163c7989ff5e4f957c9baf062aeb5665d146c5b9c2dabcdc8500cc4"
+    "image": "/avatars/jb87ua.jpeg"
   }
 ]
