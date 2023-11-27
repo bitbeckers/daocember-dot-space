@@ -258,5 +258,40 @@
     "name": "AthensDAO",
     "image": "/avatars/athensdaox.jpg",
     "twitter": "https://twitter.com/AthensDAOx"
+  },
+  {
+    "name": "DeSci World",
+    "image": "/avatars/desciworld.jpg",
+    "twitter": "https://twitter.com/DeSciWorld"
+  },
+  {
+    "name": "LexDAO",
+    "image": "/avatars/lex_dao.jpg",
+    "twitter": "https://twitter.com/lex_DAO"
+  },
+  {
+    "name": "PizzaDAO",
+    "image": "/avatars/pizza_dao.png",
+    "twitter": "https://twitter.com/Pizza_DAO"
+  },
+  {
+    "name": "Arbitrum",
+    "image": "/avatars/arbitrum.png",
+    "twitter": "https://twitter.com/arbitrum"
+  },
+  {
+    "name": "ReFi DAO",
+    "image": "/avatars/refidaoist.jpg",
+    "twitter": "https://twitter.com/ReFiDAOist"
+  },
+  {
+    "name": "DAOESCO",
+    "image": "/avatars/daoesco.jpg",
+    "twitter": "https://twitter.com/daoesco"
+  },
+  {
+    "name": "Friends With Benefits",
+    "image": "/avatars/fwbtweets.jpg",
+    "twitter": "https://twitter.com/FWBtweets"
   }
 ]
