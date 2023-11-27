@@ -7,15 +7,19 @@ const Intro = () => {
     "DAO playbooks are yet unwritten, so let’s write some.",
   ];
   return (
-    <div className="min-w-screen">
-      <div className="max-w-xl space-y-8 mx-auto">
+    <>
+      <p className="max-w-2xl mx-auto px-2 text-center text-2xl mb-8">
+        A virtual gathering of DAOists boosting the new generation. Learn from
+        the best & get your DAO growin&apos;
+      </p>
+      <div className="max-w-xl space-y-6 mx-auto px-2">
         {text.map((t, i) => (
           <p className="text-center text-xl" key={i}>
             {t}
           </p>
         ))}
       </div>
-    </div>
+    </>
   );
 };
 
