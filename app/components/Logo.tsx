@@ -3,7 +3,7 @@ import Image from "next/image";
 const Logo = () => {
   return (
     <div className="flex flex-col items-center justify-center min-w-full mb-20">
-      <div className="flex flex-col mt-[10vw]">
+      <div className="flex flex-col mt-[14vw] 2xl:mt-[16vw]">
         <Image
           src="/logo-daocember.png"
           alt="DAOcember logo"
@@ -11,8 +11,8 @@ const Logo = () => {
           height={450}
         />
       </div>
-      <h1 className="drop-shadow-2xl text-5xl font-bold font-pixelized text-white">
-        December 1 - 15th
+      <h1 className="text-2xl sm:text-4xl lg:text-5xl text-center font-bold font-pixelized text-[#FFA479]">
+        December <span className="whitespace-nowrap">1 - 15th</span>
       </h1>
     </div>
   );

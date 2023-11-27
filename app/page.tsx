@@ -9,7 +9,7 @@ import Acts from "./components/Acts";
 export default function Home() {
   return (
     <main className="flex flex-col min-h-screen min-w-screen text-white justify-center">
-      <div className="flex flex-col bg-sunrise-upper bg-cover text-white justify-center">
+      <div className="flex flex-col bg-sunrise-upper bg-[length:100%] bg-no-repeat bg-[#111028] bg-top text-white justify-center">
         <Logo />
         <Intro />
         <Acts />
