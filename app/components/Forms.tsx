@@ -71,11 +71,11 @@ const Forms = () => {
     },
   ];
   return (
-    <div className="max-w-screen flex flex-col mt-20 justify-center">
-      <span className="flex text-xl justify-center my-10 font-pixelized">
+    <div className="max-w-screen flex flex-col mt-12 md:mt-20 justify-center">
+      <span className="flex text-xl justify-center mb-4 md:mb-10 font-pixelized">
         Sign up as...
       </span>
-      <div className="flex flex-row space-x-20 justify-left md:justify-center p-6 overflow-x-auto">
+      <div className="flex flex-col md:flex-row gap-x-20 gap-y-6 justify-center items-center p-6">
         {forms.map((form, index) => (
           <FormCard
             key={index}

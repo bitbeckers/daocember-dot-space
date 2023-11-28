@@ -19,7 +19,7 @@ const PartnerListItem = ({ name, image, twitter }: Partner) => {
           height={48}
           width={48}
         />
-        <span className="text-xs md:text-base text-slate-50 font-semibold ml-2 mr-4">
+        <span className="text-xs md:text-sm text-slate-50 font-semibold ml-2 mr-4">
           {name}
         </span>
       </a>
