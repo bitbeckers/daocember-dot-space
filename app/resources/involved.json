@@ -280,14 +280,14 @@
     "image": "/avatars/pablo_moncada.jpg"
   },
   {
-    "name": "links aka Al Mithani",
-    "twitter": "https://twitter.com/almithani",
-    "image": "/avatars/almithani.jpg"
-  },
-  {
     "name": "Gerrit",
     "twitter": "https://twitter.com/0xgerritbr",
     "image": "/avatars/0xgerritbr.jpeg"
+  },
+  {
+    "name": "links aka Al Mithani",
+    "twitter": "https://twitter.com/almithani",
+    "image": "/avatars/almithani.jpg"
   },
   {
     "name": "Joshua",

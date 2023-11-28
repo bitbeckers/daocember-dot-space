@@ -11,7 +11,7 @@ const Logo = () => {
           height={450}
         />
       </div>
-      <h1 className="text-2xl sm:text-4xl lg:text-5xl text-center font-bold font-pixelized text-[#FFA479]">
+      <h1 className="text-2xl md:text-4xl text-center font-bold font-pixelized text-[#FFA479]">
         December <span className="whitespace-nowrap">1 - 15th</span>
       </h1>
     </div>

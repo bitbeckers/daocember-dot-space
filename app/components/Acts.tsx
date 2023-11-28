@@ -57,14 +57,14 @@ const actInfo: ActCardInfo[] = [
 
 const ActCard = ({ romanNumeral, topics, title }: ActCardInfo) => {
   return (
-    <article className="flex flex-col items-center">
-      <h5 className="flex justify-center text-xl font-bold font-pixelized text-[#FFA479] uppercase">
+    <article className="sm:w-2/3 md:w-auto sm:flex flex-col mb-6">
+      <h5 className="text-lg text-center font-bold font-pixelized text-[#FFA479] uppercase">
         Act {romanNumeral}
       </h5>
-      <h2 className="flex justify-center text-3xl font-semibold font-pixelized mb-4">
+      <h2 className="text-lg md:text-xl text-center font-semibold font-pixelized mb-4">
         {title}
       </h2>
-      <div className="flex flex-col flex-grow bg-white/10 backdrop-blur-md border-s-[#FFA479] border-s-4 rounded-md p-4">
+      <div className="flex-grow bg-white/10 backdrop-blur-md border-s-[#FFA479] border-s-4 sm:rounded-md p-4">
         <ul>
           {topics
             .map((topic) => {
@@ -73,7 +73,7 @@ const ActCard = ({ romanNumeral, topics, title }: ActCardInfo) => {
             .map(({ id, topic }) => (
               <li
                 key={id}
-                className="text-lg flex flex-col items-center text-center p-2 border-b-[1.5px] border-b-white/30 last-of-type:border-none"
+                className="text-base text-center p-2 border-b-[1.5px] border-b-white/30 last-of-type:border-none"
               >
                 {topic}
               </li>
@@ -86,18 +86,16 @@ const ActCard = ({ romanNumeral, topics, title }: ActCardInfo) => {
 
 const Acts = () => {
   return (
-    <section className="flex py-10 justify-center">
-      <div className="flex flex-col md:flex-row justify-center gap-6">
-        {actInfo.map(({ id, romanNumeral, topics, title }) => (
-          <ActCard
-            id={id}
-            key={id}
-            romanNumeral={romanNumeral}
-            topics={topics}
-            title={title}
-          />
-        ))}
-      </div>
+    <section className="sm:flex flex-col md:flex-row justify-center items-center md:items-stretch md:gap-10 py-10">
+      {actInfo.map(({ id, romanNumeral, topics, title }) => (
+        <ActCard
+          id={id}
+          key={id}
+          romanNumeral={romanNumeral}
+          topics={topics}
+          title={title}
+        />
+      ))}
     </section>
   );
 };
