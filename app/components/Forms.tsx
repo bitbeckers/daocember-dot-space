@@ -93,7 +93,7 @@ const Forms = () => {
       </span>
       <div className="flex flex-row space-x-6 justify-center m-4 transition-transform hover:translate-x-2 hover:-translate-y-2">
         <a
-          href="https://t.me/daocember"
+          href="https://t.me/+u8ZjX_vERSU2N2U0"
           target="_blank"
           rel="noopener noreferrer"
           title="Telegram"
