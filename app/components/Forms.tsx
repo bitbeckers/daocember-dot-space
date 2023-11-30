@@ -71,7 +71,7 @@ const Forms = () => {
     },
   ];
   return (
-    <div className="max-w-screen flex flex-col mt-12 md:mt-20 justify-center">
+    <div id="signup" className="max-w-screen flex flex-col mt-12 md:mt-20 justify-center">
       <span className="flex text-xl justify-center mb-4 md:mb-10 font-pixelized">
         Sign up as...
       </span>
