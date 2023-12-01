@@ -26,7 +26,7 @@ const Schedule = async () => {
 
   return (
     <section id="schedule">
-      <ul className="mx-auto md:w-3/4">
+      <ul className="mx-auto md:max-w-4xl">
         {events
           .filter((e) => e.end.diffNow("minutes").minutes > -15)
           .map((e) => {
