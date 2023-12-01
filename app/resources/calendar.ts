@@ -8,21 +8,27 @@ import {
 
 const PRIVATE_CALENDAR_URL = process.env.PRIVATE_CALENDAR_URL!;
 
+export type EventType = "panel" | "talk" | "hangout" | "demo" | "default";
+
 export interface Event {
   title: string;
+  description: string;
   start: DateTime;
   end: DateTime;
   location: string;
   attendees: string[];
+  type: EventType;
 }
 
 const prettifyEvent = (icalEvent: VEvent): Event => {
   return {
     title: icalEvent.summary,
+    description: icalEvent.description,
     start: DateTime.fromJSDate(icalEvent.start, { zone: "utc" }),
     end: DateTime.fromJSDate(icalEvent.end, { zone: "utc" }),
     location: icalEvent.location || "TBD",
     attendees: prettifyAttendees(icalEvent.attendee),
+    type: "demo",
   };
 };
 
