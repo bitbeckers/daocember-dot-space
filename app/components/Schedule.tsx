@@ -1,14 +1,12 @@
 import { DateTime } from "luxon";
 
-import { type Event } from "../resources/calendar";
+import getEvents from "../resources/calendar";
 import EventCard from "./EventCard";
 
-interface ScheduleProps {
-  events: Event[];
-}
-
-const Schedule = ({ events }: ScheduleProps) => {
+const Schedule = async () => {
   let lastDay = "";
+
+  const events = await getEvents();
 
   const renderDayHeadline = (start: DateTime) => {
     const dayStart = start.toLocaleString({
