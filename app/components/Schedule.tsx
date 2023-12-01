@@ -26,7 +26,7 @@ const Schedule = async () => {
 
   return (
     <section id="schedule">
-      <ul className="mx-auto w-3/4">
+      <ul className="mx-auto md:w-3/4">
         {/* TODO: filter out events that have finished */}
 
         {events.map((e) => {

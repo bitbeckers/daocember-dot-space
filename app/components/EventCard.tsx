@@ -65,10 +65,10 @@ const EventCard = ({
         </a>
       </div>
       <div
-        className={`bg-white/10 backdrop-blur-sm border-s-4 rounded-md px-7 py-4 ${eventTypes[type].color}`}
+        className={`bg-white/10 backdrop-blur-sm border-s-4 md:rounded-md px-7 py-4 ${eventTypes[type].color}`}
       >
         <h4 className="text-xl mb-1">{title}</h4>
-        <p className="text-base mb-1">{description}</p>
+        <p className="text-base mb-1 md:max-w-3xl">{description}</p>
         <p className="text-base text-[#FFD979]">
           {attendees.map((a) => a.split("@")[0]).join(", ")}
         </p>
