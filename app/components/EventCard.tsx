@@ -55,10 +55,11 @@ const EventCard = ({
           UTC
         </h4>
         <a
-          href={`https://calendar.google.com/calendar/r/eventedit/${id}`}
+          href={`https://www.google.com/calendar/event?eid=${id}`}
           target="_blank"
           rel="noopener noreferrer"
           title="Add to calendar"
+          className="hidden"
         >
           <Image src="/calendar.png" width="30" height="30" alt="" />
         </a>
