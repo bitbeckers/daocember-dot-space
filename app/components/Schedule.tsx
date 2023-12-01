@@ -27,16 +27,16 @@ const Schedule = async () => {
   return (
     <section id="schedule">
       <ul className="mx-auto md:w-3/4">
-        {/* TODO: filter out events that have finished */}
-
-        {events.map((e) => {
-          return (
-            <li key={e.id}>
-              {renderDayHeadline(e.start)}
-              <EventCard {...e} />
-            </li>
-          );
-        })}
+        {events
+          .filter((e) => e.end.diffNow("minutes").minutes > -15)
+          .map((e) => {
+            return (
+              <li key={e.id}>
+                {renderDayHeadline(e.start)}
+                <EventCard {...e} />
+              </li>
+            );
+          })}
       </ul>
     </section>
   );
