@@ -12,7 +12,7 @@ const Intro = () => {
         A virtual gathering of DAOists boosting the new generation. Learn from
         the best & get your DAO growin&apos;
       </p>
-      <div className="flex justify-center gap-4 mb-14">
+      <div className="flex flex-col sm:flex-row justify-center gap-4 mb-14 px-4">
         <a
           href="https://t.me/+u8ZjX_vERSU2N2U0"
           target="_blank"

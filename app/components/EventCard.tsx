@@ -1,7 +1,7 @@
 import { DateTime } from "luxon";
+import Image from "next/image";
 
 import { type Event, type EventType } from "../resources/calendar";
-import Image from "next/image";
 
 interface EventFormat {
   title: string;
