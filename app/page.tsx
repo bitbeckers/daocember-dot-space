@@ -37,7 +37,6 @@ export default async function Home() {
         <PartnersList partners={involvedPartners} title="DAOists involved" />
         <PartnersList partners={representedPartners} title="DAOs represented" />
         <Details />
-        <Forms />
         <Schedule events={events} />
       </div>
     </main>

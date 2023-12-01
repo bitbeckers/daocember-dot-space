@@ -31,7 +31,7 @@ const EventCard = ({ title, start, end, attendees }: Event) => {
 
 const Schedule = ({ events }: ScheduleProps) => {
   return (
-    <section>
+    <section id="schedule">
       <h2 className="text-xl text-center font-pixelized mb-8">Schedule</h2>
       <ul className="mx-auto w-3/4">
         {/* TODO: filter out events that have finished */}
