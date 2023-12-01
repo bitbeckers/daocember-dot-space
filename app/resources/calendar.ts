@@ -45,7 +45,8 @@ const getEvents = async (): Promise<Event[]> => {
 
   return Object.values(events)
     .filter((e) => e.type === "VEVENT")
-    .map((e) => prettifyEvent(e as VEvent));
+    .map((e) => prettifyEvent(e as VEvent))
+    .sort((a, b) => a.start.valueOf() - b.start.valueOf());
 };
 
 export default getEvents;
