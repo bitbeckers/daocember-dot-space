@@ -8,10 +8,24 @@ const Intro = () => {
   ];
   return (
     <>
-      <p className="max-w-2xl mx-auto px-2 text-center text-lg mb-8">
+      <p className="max-w-2xl mx-auto px-2 text-center text-xl mb-12">
         A virtual gathering of DAOists boosting the new generation. Learn from
         the best & get your DAO growin&apos;
       </p>
+      <div className="flex flex-col sm:flex-row justify-center gap-4 mb-14 px-4">
+        <a
+          href="https://t.me/+u8ZjX_vERSU2N2U0"
+          target="_blank"
+          rel="noopener noreferrer"
+          title="Telegram"
+          className="button"
+        >
+          Join Now
+        </a>
+        <a href="#schedule" className="button">
+          Full Schedule
+        </a>
+      </div>
       <div className="max-w-xl space-y-6 mx-auto px-2">
         {text.map((t, i) => (
           <p className="text-center text-base" key={i}>

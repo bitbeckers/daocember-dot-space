@@ -20,7 +20,7 @@ const Details = () => {
     },
   ];
   return (
-    <div className="flex flex-col space-y-4 text-center mt-8 md:mt-10 px-2">
+    <div className="flex flex-col space-y-4 text-center mt-8 md:mt-10 px-2 mb-8">
       {reasons.map((t, i) => (
         <dl key={i} className="mb-2">
           <dt className="text-xl font-bold font-pixelized">{t.title}</dt>

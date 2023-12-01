@@ -1,12 +1,12 @@
 import { promises as fs } from "fs";
+import { Suspense } from "react";
 
 import Details from "./components/Details";
 import Intro from "./components/Intro";
 import Logo from "./components/Logo";
 import PartnersList from "./components/PartnersList";
-import Forms from "./components/Forms";
-import Footer from "./components/Footer";
 import Acts from "./components/Acts";
+import Schedule from "./components/Schedule";
 
 export default async function Home() {
   const involvedFile = await fs.readFile(
@@ -32,7 +32,13 @@ export default async function Home() {
         <PartnersList partners={involvedPartners} title="DAOists involved" />
         <PartnersList partners={representedPartners} title="DAOs represented" />
         <Details />
-        <Forms />
+        <Suspense
+          fallback={
+            <p className="text-center text-xl my-12">Loading schedule...</p>
+          }
+        >
+          <Schedule />
+        </Suspense>
       </div>
     </main>
   );
