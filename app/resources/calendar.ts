@@ -11,6 +11,7 @@ const PRIVATE_CALENDAR_URL = process.env.PRIVATE_CALENDAR_URL!;
 export type EventType = "panel" | "talk" | "hangout" | "demo" | "default";
 
 export interface Event {
+  id: string;
   title: string;
   description: string;
   start: DateTime;
@@ -22,6 +23,7 @@ export interface Event {
 
 const prettifyEvent = (icalEvent: VEvent): Event => {
   return {
+    id: icalEvent.uid,
     title: icalEvent.summary,
     description: icalEvent.description,
     start: DateTime.fromJSDate(icalEvent.start, { zone: "utc" }),
@@ -48,7 +50,6 @@ const prettifyAttendees = (attendee?: Attendee | Attendee[]): string[] => {
 
 const getEvents = async (): Promise<Event[]> => {
   const events = await async.fromURL(PRIVATE_CALENDAR_URL);
-
   return Object.values(events)
     .filter((e) => e.type === "VEVENT")
     .map((e) => prettifyEvent(e as VEvent))
