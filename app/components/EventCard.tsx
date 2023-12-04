@@ -74,18 +74,16 @@ const EventCard = ({
         </p>
         <div className="flex justify-between">
           <p className="text-gray-400 text-base">{eventTypes[type].title}</p>
-          {start.diffNow("minutes").minutes < 30 &&
-            end.diffNow("minutes").minutes > -15 && (
-              <a
-                className="text-red-400 hover:text-red-500 text-lg"
-                href={location}
-                title="Join the event"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                Join &gt;
-              </a>
-            )}
+
+          <a
+            className="text-red-400 hover:text-red-500 text-lg"
+            href={location}
+            title="Join the event"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Join &gt;
+          </a>
         </div>
       </div>
     </div>
