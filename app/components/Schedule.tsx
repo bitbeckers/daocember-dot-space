@@ -3,7 +3,7 @@ import { DateTime } from "luxon";
 import getEvents from "../resources/calendar";
 import EventCard from "./EventCard";
 
-export const revalidate = 600;
+export const dynamic = "force-dynamic";
 
 const Schedule = async () => {
   let lastDay = "";
