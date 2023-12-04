@@ -8,6 +8,8 @@ import PartnersList from "./components/PartnersList";
 import Acts from "./components/Acts";
 import Schedule from "./components/Schedule";
 
+export const dynamic = "force-dynamic";
+
 export default async function Home() {
   const involvedFile = await fs.readFile(
     process.cwd() + "/app/resources/involved.json",
