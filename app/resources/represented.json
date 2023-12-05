@@ -293,5 +293,10 @@
     "name": "Friends With Benefits",
     "image": "/avatars/fwbtweets.jpg",
     "twitter": "https://twitter.com/FWBtweets"
+  },
+  {
+    "name": "Q Blockchain",
+    "image": "/avatars/qblockchain.jpg",
+    "twitter": "https://twitter.com/QBlockchain"
   }
 ]
