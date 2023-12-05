@@ -27,7 +27,7 @@ const eventTypes: Record<EventType, EventFormat> = {
   },
   default: {
     title: "Event",
-    color: "border-s-[#EFEFEF]",
+    color: "border-s-[#84FF79]",
   },
 };
 
