@@ -69,9 +69,7 @@ const EventCard = ({
       >
         <h4 className="text-xl mb-1">{title}</h4>
         <p className="text-base mb-1 md:max-w-3xl">{description}</p>
-        <p className="text-base text-[#FFD979]">
-          {attendees.map((a) => a.split("@")[0]).join(", ")}
-        </p>
+        <p className="text-base text-[#FFD979]">{attendees.join(", ")}</p>
         <div className="flex justify-between">
           <p className="text-gray-400 text-base">{eventTypes[type].title}</p>
 
