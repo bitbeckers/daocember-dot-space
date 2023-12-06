@@ -1,0 +1,405 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//DAOcember Speaker Calendar
+CALSCALE:GREGORIAN
+
+
+BEGIN:VEVENT
+SUMMARY:Mission, Purpose & Personas
+DTSTART;TZID=UTC:20231204T162000
+DTEND;TZID=UTC:20231204T164000
+DESCRIPTION:#Talks #AMA In this inspiring session, Elco will be talking about the importance of setting your purpose & mission early in starting your DAO journey.
+ATTENDEE;RSVP=TRUE:CN=Elco:mailto:elco@thedaoist.gg
+ATTENDEE;RSVP=TRUE:CN=Rich:mailto:rjogrady21@gmail.com
+END:VEVENT
+
+BEGIN:VEVENT
+SUMMARY:Mission, Purpose & Personas
+DTSTART;TZID=UTC:20231204T164000
+DTEND;TZID=UTC:20231204T172000
+DESCRIPTION:#Panels #Fishbowls This panel will then go deeper into how mission & purpose are set as well as target audience aka personas are identified, what their roles are etc.
+ATTENDEE;RSVP=TRUE:CN=Victor Rortvedt:mailto:victorrortvedt@gmail.com
+ATTENDEE;RSVP=TRUE:CN=1sla.eth:mailto:isla@forthwin.ventures
+ATTENDEE;RSVP=TRUE:CN=Ξ2T:mailto:earth2travis@gmail.com
+ATTENDEE;RSVP=TRUE:CN=Nichanan:mailto:n@1kx.capital
+ATTENDEE;RSVP=TRUE:CN=Rich:mailto:rjogrady21@gmail.com
+END:VEVENT
+
+BEGIN:VEVENT
+SUMMARY:Mission, Purpose & Personas
+DTSTART;TZID=UTC:20231204T172000
+DTEND;TZID=UTC:20231204T180000
+DESCRIPTION:#Workshops Finally, the workshop on the same topic will be getting even more practical, guiding people through the process of setting these things for their DAO.
+ATTENDEE;RSVP=TRUE:CN=Ξ2T:mailto:earth2travis@gmail.com
+ATTENDEE;RSVP=TRUE:CN=Eugene:mailto:eugene@scrf.io
+END:VEVENT
+
+BEGIN:VEVENT
+SUMMARY:Conflict Resolution
+DTSTART;TZID=UTC:20231204T180000
+DTEND;TZID=UTC:20231204T184000
+DESCRIPTION:#Workshops Taught by Juan Carlos of Gravity DAO, this session will be teaching people about how to resolve conflicts as they inevitably arise - as well as how to prevent them.
+ATTENDEE;RSVP=TRUE:CN=Juan Bell:mailto:bell.juan.carlos@gmail.com
+END:VEVENT
+
+BEGIN:VEVENT
+SUMMARY:Handbook of Handbooks Book Club
+DTSTART;TZID=UTC:20231204T192000
+DTEND;TZID=UTC:20231204T200000
+DESCRIPTION:#Workshops In this session hosted by peth, DAOists will spend some time digging through operating manuals of pre-DAO decentralized organizations & extracting wisdom.
+ATTENDEE;RSVP=TRUE:CN=peth:mailto:peth.metagame@gmail.com
+END:VEVENT
+
+BEGIN:VEVENT
+SUMMARY:Strategy, Focus & Prioritization
+DTSTART;TZID=UTC:20231205T172000
+DTEND;TZID=UTC:20231205T180000
+DESCRIPTION:#Panels #Fishbowls This panel by Andrej of Deep Work, Victor of Hydra DAO, Ben of POKT DAO & Ivan of Aragon will be all about the importance of strategy, focus & prioritization.
+ATTENDEE;RSVP=TRUE:CN=Andrej:mailto:andrej@deepwork.studio
+ATTENDEE;RSVP=TRUE:CN=Victor Rortvedt:mailto:victorrortvedt@gmail.com
+ATTENDEE;RSVP=TRUE:CN=b3nn:mailto:ben@pokt.foundation
+ATTENDEE;RSVP=TRUE:CN=Eugene:mailto:eugene@scrf.io
+END:VEVENT
+
+BEGIN:VEVENT
+SUMMARY:Strategy, Focus & Prioritization
+DTSTART;TZID=UTC:20231205T180000
+DTEND;TZID=UTC:20231205T184000
+DESCRIPTION:#Workshops This workshop led by Andrej of Deep Work will be helping people narrow down things to prioritize from infinite lists of ideas that will arise in their DAOs.
+ATTENDEE;RSVP=TRUE:CN=Andrej:mailto:andrej@deepwork.studio
+END:VEVENT
+
+BEGIN:VEVENT
+SUMMARY:Rhythms, Phases & Feedback Loops
+DTSTART;TZID=UTC:20231205T184000
+DTEND;TZID=UTC:20231205T192000
+DESCRIPTION:#Panels #Fishbowls In this panel, participants will be discussing the importance of implementing rhythms, phases & feedback loops into your DAO’s operations.
+ATTENDEE;RSVP=TRUE:CN=Jeremy:mailto:jeremy@instituutcore.nl
+ATTENDEE;RSVP=TRUE:CN=links aka Al Mithani:mailto:almithani@gmail.com
+ATTENDEE;RSVP=TRUE:CN=peth:mailto:peth.metagame@gmail.com
+ATTENDEE;RSVP=TRUE:CN=Livia:mailto:liviaieaou@gmail.com
+ATTENDEE;RSVP=TRUE:CN=TW:mailto:travis.wyche@gmail.com
+END:VEVENT
+
+BEGIN:VEVENT
+SUMMARY:Marketing, Growth & Scaling
+DTSTART;TZID=UTC:20231205T192000
+DTEND;TZID=UTC:20231205T200000
+DESCRIPTION:#Panels #Fishbowls This session will be all about helping newcomers understand marketing, growth & scaling in the context of DAOs & Web3 - fairly different than traditionally.
+ATTENDEE;RSVP=TRUE:CN=Jengajojo:mailto:jengajojo404@gmail.com
+ATTENDEE;RSVP=TRUE:CN=OrnellaWeb3:mailto:ornella.vallana@gmail.com
+END:VEVENT
+
+
+BEGIN:VEVENT
+SUMMARY:Indigenous Practices Workshop
+DTSTART;TZID=UTC:20231205T200000
+DTEND;TZID=UTC:20231205T210000
+DESCRIPTION:#Workshops Join us for the Indigenous Practices workshop where Songyi will share insights into the incorporation of indigenous practices in the context of DAOs and decentralized communities.
+ATTENDEE;RSVP=TRUE:CN=Songyi:mailto:songyi@weave.work
+END:VEVENT
+
+BEGIN:VEVENT
+SUMMARY:Tooling, Building Blocks & Mechanisms
+DTSTART;TZID=UTC:20231206T162000
+DTEND;TZID=UTC:20231206T170000
+DESCRIPTION:#Panels #Fishbowls This panel will be all about tools, building blocks & mechanisms you can leverage to successfully build & operate your DAO.
+ATTENDEE;RSVP=TRUE:CN=Jack du Rose:mailto:jack@colony.io
+ATTENDEE;RSVP=TRUE:CN=BPetes:mailto:bryan@sobol.io
+ATTENDEE;RSVP=TRUE:CN=SkyMine:mailto:sky@skyminelabs.com
+ATTENDEE;RSVP=TRUE:CN=S4rgard3n:mailto:stargardenbeats@gmail.com
+ATTENDEE;RSVP=TRUE:CN=Chris Carella:mailto:chris.carella@charmverse.io
+END:VEVENT
+
+BEGIN:VEVENT
+SUMMARY:Tooling, Building Blocks & Mechanisms
+DTSTART;TZID=UTC:20231206T170000
+DTEND;TZID=UTC:20231206T180000
+DESCRIPTION:#Demos #OfficeHours This session of the same topic will also be all about tools, building blocks & mechanisms you can leverage - but will actually be demoing them for you.
+ATTENDEE;RSVP=TRUE:CN=Jack du Rose:mailto:jack@colony.io
+ATTENDEE;RSVP=TRUE:CN=BPetes:mailto:bryan@sobol.io
+ATTENDEE;RSVP=TRUE:CN=Chris Carella:mailto:chris.carella@charmverse.io
+ATTENDEE;RSVP=TRUE:CN=James Young:mailto:james@abridged.io
+ATTENDEE;RSVP=TRUE:CN=Dekan:mailto:dekanbrown@odyssy.io
+END:VEVENT
+
+BEGIN:VEVENT
+SUMMARY:Tooling, Building Blocks & Mechanisms
+DTSTART;TZID=UTC:20231206T184000
+DTEND;TZID=UTC:20231206T192000
+DESCRIPTION:#Workshops Finally, this session on the same topic will be all about helping you actually integrate & use all of these different tools & building blocks.
+ATTENDEE;RSVP=TRUE:CN=penguin:mailto:c0mput3rxz@gmail.com
+END:VEVENT
+
+BEGIN:VEVENT
+SUMMARY:Case Clinic
+DTSTART;TZID=UTC:20231206T192000
+DTEND;TZID=UTC:20231206T200000
+DESCRIPTION: #Workshops This session led by the legendary facilitator Jeremy Akers will be space for any DAO summoner or operator to share their challenges & get help solving them.
+ATTENDEE;RSVP=TRUE:CN=Jeremy:mailto:jeremy@instituutcore.nl
+ATTENDEE;RSVP=TRUE:CN=penguin:mailto:c0mput3rxz@gmail.com
+END:VEVENT
+
+BEGIN:VEVENT
+SUMMARY:Hangouts & Networking - 6th
+DTSTART;TZID=UTC:20231206T200000
+DTEND;TZID=UTC:20231206T210000
+DESCRIPTION:#Hangout A no-agenda hangout session for DAOists to chill, mingle, talk about the latest happenings in the DAO space or just meet each other.
+ATTENDEE;RSVP=TRUE:CN=penguin:mailto:c0mput3rxz@gmail.com
+END:VEVENT
+
+BEGIN:VEVENT
+SUMMARY:Building Healthy Communities
+DTSTART;TZID=UTC:20231207T162000
+DTEND;TZID=UTC:20231207T164000
+DESCRIPTION:#Talks #AMA This talk by Katerina of TogetherCrew will be going into what it takes to build a healthy community around your DAO - some of the most important knowledge.
+ATTENDEE;RSVP=TRUE:CN=Katerina:mailto:katerina@togethercrew.com
+ATTENDEE;RSVP=TRUE:CN=Rich:mailto:rjogrady21@gmail.com
+END:VEVENT
+
+BEGIN:VEVENT
+SUMMARY:Building Healthy Communities
+DTSTART;TZID=UTC:20231207T164000
+DTEND;TZID=UTC:20231207T172000
+DESCRIPTION:#Panels #Fishbowls This panel on the same topic will be going deeper into what it takes, how to do it, different ways to fail or measure success etc.
+ATTENDEE;RSVP=TRUE:CN=Katerina:mailto:katerina@togethercrew.com
+ATTENDEE;RSVP=TRUE:CN=Grace Rachmany:mailto:grace@voiceofhumanity.one
+ATTENDEE;RSVP=TRUE:CN=TW:mailto:travis.wyche@gmail.com
+ATTENDEE;RSVP=TRUE:CN=Valerie:mailto:vlrspn9@gmail.com
+ATTENDEE;RSVP=TRUE:CN=Rich:mailto:rjogrady21@gmail.com
+END:VEVENT
+
+BEGIN:VEVENT
+SUMMARY:Building Healthy Communities
+DTSTART;TZID=UTC:20231207T172000
+DTEND;TZID=UTC:20231207T180000
+DESCRIPTION:#Demos #OpenOffice Finally, this demo by Katerina will be showing the TogetherCrew community analytics you can use to track & measure the health of your community.
+ATTENDEE;RSVP=TRUE:CN=Katerina:mailto:katerina@togethercrew.com
+ATTENDEE;RSVP=TRUE:CN=Rich:mailto:rjogrady21@gmail.com
+END:VEVENT
+
+BEGIN:VEVENT
+SUMMARY:Membership, Roles & Authorities
+DTSTART;TZID=UTC:20231207T180000
+DTEND;TZID=UTC:20231207T184000
+DESCRIPTION:#Talks #AMA This talk will be all about the importance of clearly defining the membership, requirements, roles & authorities for successfully operating your DAO.
+ATTENDEE;RSVP=TRUE:CN=:mailto:test@test.com
+ATTENDEE;RSVP=TRUE:CN=:mailto:test2@test.com
+END:VEVENT
+
+BEGIN:VEVENT
+SUMMARY:Membership, Roles & Authorities
+DTSTART;TZID=UTC:20231207T184000
+DTEND;TZID=UTC:20231207T192000
+DESCRIPTION:#Workshops And this workshop on the same topic will be teaching you how to use Hats Protocol, a Web3 building block for managing roles & permissions in a DAO.
+ATTENDEE;RSVP=TRUE:CN=nintynick:mailto:nicholas.naraghi@gmail.com
+END:VEVENT
+
+BEGIN:VEVENT
+SUMMARY:Transparency, Accountability & Privacy
+DTSTART;TZID=UTC:20231208T162000
+DTEND;TZID=UTC:20231208T170000
+DESCRIPTION:#Panels #Fishbowls This panel will be all about the transparency, accountability & privacy inside DAOs - all of which can be challenging in an open & fluid context of DAOs.
+ATTENDEE;RSVP=TRUE:CN=SkyMine:mailto:sky@skyminelabs.com
+ATTENDEE;RSVP=TRUE:CN=Bryn Bennett:mailto:bryn@govdao.io
+ATTENDEE;RSVP=TRUE:CN=Zaal:mailto:zaalp99@gmail.com
+ATTENDEE;RSVP=TRUE:CN=Chiali:mailto:info@chialitsai.com
+ATTENDEE;RSVP=TRUE:CN=Valerie:mailto:Christinamariekirsch@gmail.com
+END:VEVENT
+
+BEGIN:VEVENT
+SUMMARY:Reputation, Rewards & Compensation
+DTSTART;TZID=UTC:20231208T170000
+DTEND;TZID=UTC:20231208T180000
+DESCRIPTION:#Panels #Fishbowls This session will be all about reputation, rewards & compensation inside DAOs, all of which are crucial aspects of building a successful DAO.
+ATTENDEE;RSVP=TRUE:CN=Bpetes:mailto:bryan@sobol.io
+ATTENDEE;RSVP=TRUE:CN=Aaron Soskin:mailto:aaron@govrn.io
+ATTENDEE;RSVP=TRUE:CN=penguin:mailto:c0mput3rxz@gmail.com
+ATTENDEE;RSVP=TRUE:CN=Rahul:mailto:rahulnandakumar10@gmail.com
+ATTENDEE;RSVP=TRUE:CN=Christina:mailto:Christinamariekirsch@gmail.com
+
+END:VEVENT
+
+BEGIN:VEVENT
+SUMMARY:Reputation, Rewards & Compensation
+DTSTART;TZID=UTC:20231208T180000
+DTEND;TZID=UTC:20231208T184000
+DESCRIPTION:#Demos #OfficeHours This session of the same topic will be all about the tools you can use for your members to build reputation while being compensated or rewarded.
+ATTENDEE;RSVP=TRUE:CN=Christina:mailto:Christinamariekirsch@gmail.com
+END:VEVENT
+
+BEGIN:VEVENT
+SUMMARY:Striking the Balance: Privacy & Transparency
+DTSTART;TZID=UTC:20231208T184000
+DTEND;TZID=UTC:20231208T192000
+DESCRIPTION:#Workshops DAOs are all about transparency but people need privacy & so do some of the DAO ops. This workshop is about finding the right balance between the two.
+ATTENDEE;RSVP=TRUE:CN=Bryn Bennett:mailto:bryn@govdao.io
+ATTENDEE;RSVP=TRUE:CN=Christina:mailto:Christinamariekirsch@gmail.com
+END:VEVENT
+
+BEGIN:VEVENT
+SUMMARY:Hangouts & Networking - 8th
+DTSTART;TZID=UTC:20231208T192000
+DTEND;TZID=UTC:20231208T200000
+DESCRIPTION:#Hangouts A no-agenda hangout session for DAOists to chill, mingle, talk about the latest happenings in the DAO space or just meet each other.
+ATTENDEE;RSVP=TRUE:CN=Christina:mailto:Christinamariekirsch@gmail.com
+
+END:VEVENT
+
+BEGIN:VEVENT
+SUMMARY:Capture & Censorship Resistance
+DTSTART;TZID=UTC:20231211T162000
+DTEND;TZID=UTC:20231211T164000
+DESCRIPTION:#Talks #AMAs This talk by the legendary Spencer of Hats Protocol will be talking about the importance of building a DAO so that it's resistant to capture.
+ATTENDEE;RSVP=TRUE:CN=Spencer:mailto:hq@spengrah.xyz
+END:VEVENT
+
+BEGIN:VEVENT
+SUMMARY:Internal & External Communication
+DTSTART;TZID=UTC:20231211T170000
+DTEND;TZID=UTC:20231211T174000
+DESCRIPTION:#Panels #Fishbowls This panel will be diving into the intricacies of internal & external communication within DAOs, exploring effective strategies and potential challenges.
+ATTENDEE;RSVP=TRUE:CN=Anna:mailto:anna@refidao.com
+ATTENDEE;RSVP=TRUE:CN=coffeecrusher:mailto:achartwrsmith@gmail.com
+ATTENDEE;RSVP=TRUE:CN=duygukambur:mailto:duygu@merkezsiz.com
+ATTENDEE;RSVP=TRUE:CN=Rika Goldberg:mailto:rikagoldberg628@gmail.com
+END:VEVENT
+
+BEGIN:VEVENT
+SUMMARY:Sustainability Models & Tokenomics
+DTSTART;TZID=UTC:20231211T174000
+DTEND;TZID=UTC:20231211T182000
+DESCRIPTION:#Panels #Fishbowls This panel will explore sustainability models and tokenomics within DAOs, discussing different approaches to ensure long-term success and stability.
+ATTENDEE;RSVP=TRUE:CN=willywonka.eth:mailto:willy@ogorzaly.com
+ATTENDEE;RSVP=TRUE:CN=Joshua:mailto:joshua@coinstruct.live
+END:VEVENT
+
+BEGIN:VEVENT
+SUMMARY:Sustainability Models & Tokenomics
+DTSTART;TZID=UTC:20231211T182000
+DTEND;TZID=UTC:20231211T190000
+DESCRIPTION:#Workshops In this workshop, participants will delve deeper into sustainability models and tokenomics, gaining practical insights and knowledge to apply in their DAOs.
+ATTENDEE;RSVP=TRUE:CN=willywonka.eth:mailto:willy@ogorzaly.com
+ATTENDEE;RSVP=TRUE:CN=Joshua:mailto:joshua@coinstruct.live
+END:VEVENT
+
+BEGIN:VEVENT
+SUMMARY:Legal Structures & Concerns
+DTSTART;TZID=UTC:20231211T190000
+DTEND;TZID=UTC:20231211T194000
+DESCRIPTION:#Panels #Fishbowls This panel will address legal structures and concerns surrounding DAOs, providing valuable insights into navigating the legal landscape in decentralized governance.
+ATTENDEE;RSVP=TRUE:CN=Jawna:mailto:jawna.st@gmail.com
+ATTENDEE;RSVP=TRUE:CN=Pablo Moncada:mailto:pablomoncada95@gmail.com
+ATTENDEE;RSVP=TRUE:CN=Adam Miller:mailto:adam.miller@midao.org
+ATTENDEE;RSVP=TRUE:CN=bestape:mailto:kyle.maclean.smith@gmail.com
+ATTENDEE;RSVP=TRUE:CN=penguin:mailto:c0mput3rxz@gmail.com
+END:VEVENT
+
+BEGIN:VEVENT
+SUMMARY:Product &/or Community Market Fit
+DTSTART;TZID=UTC:20231212T162000
+DTEND;TZID=UTC:20231212T170000
+DESCRIPTION:#Panels #Fishbowls This panel will explore the crucial aspects of achieving product and/or community market fit within DAOs, discussing strategies for successful alignment.
+ATTENDEE;RSVP=TRUE:CN=nintynick:mailto:nicholas.naraghi@gmail.com
+ATTENDEE;RSVP=TRUE:CN=1sla.eth:mailto:isla@forthwin.ventures
+ATTENDEE;RSVP=TRUE:CN=Rob Morris:mailto:r@fundaomental.com
+ATTENDEE;RSVP=TRUE:CN=Peth:mailto:peth.metagame@gmail.com
+END:VEVENT
+
+BEGIN:VEVENT
+SUMMARY:Governance Patterns
+DTSTART;TZID=UTC:20231212T170000
+DTEND;TZID=UTC:20231212T180000
+DESCRIPTION:#Panels #Fishbowls This panel will delve into various governance patterns, sharing insights and experiences to help DAOs implement effective and sustainable governance structures.
+ATTENDEE;RSVP=TRUE:CN=Grace Rachmany:mailto:grace@voiceofhumanity.one
+ATTENDEE;RSVP=TRUE:CN=Richard D. Bartlett :mailto:richarddbartlett@gmail.com
+ATTENDEE;RSVP=TRUE:CN=0xJustice:mailto:jconder@polygon.technology
+ATTENDEE;RSVP=TRUE:CN=David Ehrlichman:mailto:david@hatsprotocol.xyz
+ATTENDEE;RSVP=TRUE:CN=Peth:mailto:peth.metagame@gmail.com
+END:VEVENT
+
+BEGIN:VEVENT
+SUMMARY:Advisors, Stewards, Delegates & Councils
+DTSTART;TZID=UTC:20231212T180000
+DTEND;TZID=UTC:20231212T184000
+DESCRIPTION:#Panels #Fishbowls This panel will discuss the roles of advisors, stewards, delegates, and councils within DAOs, exploring their importance and impact on decentralized decision-making.
+ATTENDEE;RSVP=TRUE:CN=Jawna:mailto:jawna.st@gmail.com
+ATTENDEE;RSVP=TRUE:CN=philh:mailto:philh@tribute.coop
+ATTENDEE;RSVP=TRUE:CN=Jengajojo:mailto:jengajojo404@gmail.com
+ATTENDEE;RSVP=TRUE:CN=links aka Al Mithani:mailto:almithani@gmail.com
+ATTENDEE;RSVP=TRUE:CN=Peth:mailto:peth.metagame@gmail.com
+END:VEVENT
+
+BEGIN:VEVENT
+SUMMARY:Future of DAOs & The Bigger Picture
+DTSTART;TZID=UTC:20231212T184000
+DTEND;TZID=UTC:20231212T192000
+DESCRIPTION:#Talks #AMAs This talk will explore the future of DAOs and the broader implications of decentralized governance, providing insights into the evolving landscape of Web3.
+ATTENDEE;RSVP=TRUE:CN=Daniel Ospina:mailto:daniel.ospinabotero@gmail.com
+ATTENDEE;RSVP=TRUE:CN=Peth:mailto:peth.metagame@gmail.com
+END:VEVENT
+
+BEGIN:VEVENT
+SUMMARY:Future of DAOs & The Bigger Picture
+DTSTART;TZID=UTC:20231212T192000
+DTEND;TZID=UTC:20231212T202000
+DESCRIPTION:#Panels #Fishbowls This panel will further discuss the future of DAOs and the bigger picture, engaging in a comprehensive exploration of the trends and challenges in decentralized governance.
+ATTENDEE;RSVP=TRUE:CN=Zakku:mailto:zakku@coordinape.com
+ATTENDEE;RSVP=TRUE:CN=Owocki:mailto:kevin@gitcoin.co
+ATTENDEE;RSVP=TRUE:CN=Daniel Ospina:mailto:daniel.ospinabotero@gmail.com
+ATTENDEE;RSVP=TRUE:CN=Bpetes:mailto:bryan@sobol.io
+ATTENDEE;RSVP=TRUE:CN=Simona Pop:mailto:simona@thesp.xyz
+ATTENDEE;RSVP=TRUE:CN=Peth:mailto:peth.metagame@gmail.com
+END:VEVENT
+
+BEGIN:VEVENT
+SUMMARY:Funding & Resource Allocation
+DTSTART;TZID=UTC:20231213T162000
+DTEND;TZID=UTC:20231213T170000
+DESCRIPTION:#Panels #Fishbowls This panel will focus on funding and resource allocation strategies within DAOs, offering valuable insights for effective financial management in decentralized organizations.
+ATTENDEE;RSVP=TRUE:CN=LauNaMu:mailto:cryptomeetlaunamu@gmail.com
+ATTENDEE;RSVP=TRUE:CN=Sov:mailto:sov@sovereignsignal.com
+ATTENDEE;RSVP=TRUE:CN=Eugene:mailto:eugene@scrf.io
+ATTENDEE;RSVP=TRUE:CN=Cotabe:mailto:cotabemoral@gmail.com
+ATTENDEE;RSVP=TRUE:CN=Disruption Joe:mailto:joe@pluralitylabs.com
+END:VEVENT
+
+
+BEGIN:VEVENT
+SUMMARY:DAO Canvas
+DTSTART;TZID=UTC:20231213T170000
+DTEND;TZID=UTC:20231213T174000
+DESCRIPTION:#Workshops This workshop will guide participants through creating a DAO Canvas, helping them define key elements and structure for their decentralized autonomous organization.
+ATTENDEE;RSVP=TRUE:CN=Daniel Ospina:mailto:daniel.ospinabotero@gmail.com
+END:VEVENT
+
+BEGIN:VEVENT
+SUMMARY:DAO Death, Decomposition or Resurrection
+DTSTART;TZID=UTC:20231213T174000
+DTEND;TZID=UTC:20231213T182000
+DESCRIPTION:#Panels #Fishbowls This panel will explore the possibilities of DAOs facing death, decomposition, or potential resurrection, discussing factors influencing their lifecycle and sustainability.
+ATTENDEE;RSVP=TRUE:CN=Daniel Ospina:mailto:daniel.ospinabotero@gmail.com
+ATTENDEE;RSVP=TRUE:CN=Victor Rortvedt:mailto:victorrortvedt@gmail.com
+ATTENDEE;RSVP=TRUE:CN=bestape:mailto:kyle.maclean.smith@gmail.com
+ATTENDEE;RSVP=TRUE:CN=Aaron Soskin:mailto:aaron@govrn.io
+ATTENDEE;RSVP=TRUE:CN=Jason:mailto:jason.windawi@alchemy.com
+ATTENDEE;RSVP=TRUE:CN=TW:mailto:travis.wyche@gmail.com
+END:VEVENT
+
+BEGIN:VEVENT
+SUMMARY:DAO Pitches & Rush
+DTSTART;TZID=UTC:20231213T182000
+DTEND;TZID=UTC:20231213T190000
+DESCRIPTION:#Demos #OpenOffice In this session, DAOs will have the opportunity to pitch their projects, and participants can experience the rush of exploring exciting decentralized initiatives.
+ATTENDEE;RSVP=TRUE:CN=Peth:mailto:peth.metagame@gmail.com
+END:VEVENT
+
+BEGIN:VEVENT
+SUMMARY:DAOcember Wrap
+DTSTART;TZID=UTC:20231213T190000
+DTEND;TZID=UTC:20231213T200000
+DESCRIPTION:#Hangouts A no-agenda hangout session to wrap up DAOcember, providing an opportunity for DAOists to reflect, share experiences, and connect before the end of the event.
+ATTENDEE;RSVP=TRUE:CN=Peth:mailto:peth.metagame@gmail.com
+END:VEVENT
+
+END:VCALENDAR

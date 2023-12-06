@@ -12,6 +12,7 @@
     "axios": "^1.6.2",
     "framer-motion": "^10.16.5",
     "fs": "0.0.1-security",
+    "googleapis": "^129.0.0",
     "luxon": "^3.4.3",
     "next": "14.0.1",
     "node-ical": "^0.17.0",
