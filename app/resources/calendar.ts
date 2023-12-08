@@ -7,11 +7,13 @@ import {
   type PropertyWithArgs,
 } from "node-ical";
 
-const PRIVATE_CALENDAR_URL = process.env.PRIVATE_CALENDAR_URL!;
-
-export type EventType = "panel" | "talk" | "hangout" | "demo" | "default";
-
-let attendeeIcsLookup = "";
+export type EventType =
+  | "panel"
+  | "talk"
+  | "hangout"
+  | "demo"
+  | "workshop"
+  | "default";
 
 export interface Event {
   id: string;
@@ -24,17 +26,49 @@ export interface Event {
   type: EventType;
 }
 
+interface TitleAndType {
+  title: string;
+  type: EventType;
+}
+
+const PRIVATE_CALENDAR_URL = process.env.PRIVATE_CALENDAR_URL!;
+const eventTypeLookup: Record<string, EventType> = {
+  "Panels & Fishbowls": "panel",
+  "Demos & Open Offices": "demo",
+  "Hangouts & Networking": "hangout",
+  Workshops: "workshop",
+  "Talks & AMAs": "talk",
+};
+
+let attendeeIcsLookup = "";
+
 const prettifyEvent = (icalEvent: VEvent): Event => {
+  const titleAndType = extractTitleAndType(icalEvent.summary);
   return {
     id: icalEvent.uid,
-    title: icalEvent.summary,
+    title: titleAndType.title,
     description: icalEvent.description,
     start: DateTime.fromJSDate(icalEvent.start, { zone: "utc" }),
     end: DateTime.fromJSDate(icalEvent.end, { zone: "utc" }),
     location: icalEvent.location || "TBD",
     attendees: prettifyAttendees(icalEvent.attendee),
-    type: "default",
+    type: titleAndType.type,
   };
+};
+
+const extractTitleAndType = (rawTitle: string): TitleAndType => {
+  const split = rawTitle.split(" - ");
+  if (split.length > 1) {
+    return {
+      type: eventTypeLookup[split.pop()!] || "default",
+      title: split.join(),
+    };
+  } else {
+    return {
+      type: "default",
+      title: rawTitle,
+    };
+  }
 };
 
 const findAttendeeName = (email: string): string => {
