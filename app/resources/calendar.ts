@@ -61,7 +61,7 @@ const extractTitleAndType = (rawTitle: string): TitleAndType => {
   if (split.length > 1) {
     return {
       type: eventTypeLookup[split.pop()!] || "default",
-      title: split.join(),
+      title: split.join(" - "),
     };
   } else {
     return {
