@@ -11,7 +11,8 @@ const pixelify = Press_Start_2P({
 
 export const metadata: Metadata = {
   title: "DAOCember",
-  description: "A MetaFam event",
+  description:
+    "A virtual gathering of DAOists boosting the new generation. Learn from the best & get your DAO growin'",
 };
 
 export default function RootLayout({
