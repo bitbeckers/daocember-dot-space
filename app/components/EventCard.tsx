@@ -6,28 +6,39 @@ import { type Event, type EventType } from "../resources/calendar";
 interface EventFormat {
   title: string;
   color: string;
+  icon: string;
 }
 
 const eventTypes: Record<EventType, EventFormat> = {
   demo: {
     title: "Demos & Open Offices",
     color: "border-s-[#84FF79]",
+    icon: "🟢",
   },
   hangout: {
-    title: "Hangouts or Networking",
+    title: "Hangouts & Networking",
     color: "border-s-[#DC79FF]",
+    icon: "🟪",
   },
   talk: {
-    title: "Talk or AMA",
-    color: "border-s-[#DC79FF]",
+    title: "Talk & AMAs",
+    color: "border-s-[#FFAA53]",
+    icon: "🟧",
   },
   panel: {
-    title: "Panel or Fishbowl",
-    color: "border-s-[#DC79FF]",
+    title: "Panel & Fishbowl",
+    color: "border-s-[#FFEE53]",
+    icon: "🟡",
+  },
+  workshop: {
+    title: "Workshop",
+    color: "border-s-[#7BA0FF]",
+    icon: "🔷",
   },
   default: {
     title: "Event",
-    color: "border-s-[#84FF79]",
+    color: "border-s-[#1e3a8a]",
+    icon: "",
   },
 };
 
@@ -65,13 +76,15 @@ const EventCard = ({
         </a>
       </div>
       <div
-        className={`bg-white/10 backdrop-blur-sm border-s-4 md:rounded-md px-7 py-4 ${eventTypes[type].color}`}
+        className={`bg-white/10 backdrop-blur-sm border-s-4 md:rounded-md px-7 pt-4 pb-2 ${eventTypes[type].color}`}
       >
         <h4 className="text-xl mb-1">{title}</h4>
-        <p className="text-base mb-1 md:max-w-3xl">{description}</p>
-        <p className="text-base text-[#FFD979]">{attendees.join(", ")}</p>
-        <div className="flex justify-between">
-          <p className="text-gray-400 text-base">{eventTypes[type].title}</p>
+        <p className="text-base mb-2 md:max-w-3xl">{description}</p>
+        <p className="text-base text-[#FFD979] mb-2">{attendees.join(", ")}</p>
+        <div className="flex justify-between align-bottom">
+          <p className="text-gray-400 text-base">
+            {eventTypes[type].icon} {eventTypes[type].title}
+          </p>
 
           <a
             className="text-red-400 hover:text-red-500 text-lg"
@@ -80,7 +93,7 @@ const EventCard = ({
             target="_blank"
             rel="noopener noreferrer"
           >
-            Join &gt;
+            Join &#10154;
           </a>
         </div>
       </div>
