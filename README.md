@@ -2,7 +2,9 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 
 ## Getting Started
 
-First, run the development server:
+First, add an environment variable PRIVATE_CALENDAR_URL for the calendar ics url, to fetch the list of events. This is best achieved by creating a `.env.local` file and putting the value in there.
+
+Second, run the development server:
 
 ```bash
 npm run dev
