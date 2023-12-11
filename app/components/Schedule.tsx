@@ -1,11 +1,11 @@
+import { unstable_noStore as noStore } from "next/cache";
 import { DateTime } from "luxon";
 
 import getEvents from "../resources/calendar";
 import EventCard from "./EventCard";
 
-export const dynamic = "force-dynamic";
-
 const Schedule = async () => {
+  noStore();
   let lastDay = "";
 
   const events = await getEvents();
